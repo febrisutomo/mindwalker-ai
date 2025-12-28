@@ -1,9 +1,12 @@
-export default function Products({ dictionary }: { dictionary: any }) {
-  const products = ['aura', 'neuralytics', 'visioncraft'] as const
+import Link from 'next/link'
+import type { Locale } from '@/i18n-config'
+
+export default function Products({ dictionary, lang }: { dictionary: any; lang: Locale }) {
+  const products = ['aura', 'neuralytics', 'vision-craft'] as const
   const icons: Record<string, string> = {
     aura: 'neurology',
-    neuralytics: 'insights',
-    visioncraft: 'visibility'
+    neuralytics: 'dataset',
+    'vision-craft': 'visibility'
   }
 
   return (
@@ -22,8 +25,9 @@ export default function Products({ dictionary }: { dictionary: any }) {
           {products.map((key) => {
             const product = dictionary.products[key]
             return (
-              <div
+              <Link
                 key={key}
+                href={`/${lang}/products/${key}`}
                 className="flex flex-col gap-5 p-8 bg-white dark:bg-[#1a202c]/50 rounded-xl border border-gray-200 dark:border-gray-800 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 group"
               >
                 <div className="flex items-center gap-4">
@@ -52,14 +56,13 @@ export default function Products({ dictionary }: { dictionary: any }) {
                     </div>
                   ))}
                 </div>
-                <a
+                <div
                   className="inline-flex items-center gap-2 text-sm font-medium text-primary mt-auto pt-2 group/link hover:gap-3 transition-all"
-                  href={key === 'visioncraft' ? "https://visioncraft-demo.mindwalker.ai/" : "#"}
                 >
                   {dictionary.products.learnMore} 
-                  <span className="material-symbols-outlined transition-transform duration-300 group-hover/link:translate-x-1">arrow_forward</span>
-                </a>
-              </div>
+                  <span className="material-symbols-outlined transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+                </div>
+              </Link>
             )
           })}
         </div>

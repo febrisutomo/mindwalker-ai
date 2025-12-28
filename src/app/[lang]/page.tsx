@@ -26,8 +26,8 @@ export default async function Page({
             <main className="flex-grow">
                <Hero dictionary={dictionary} />
                <About dictionary={dictionary} />
-               <Products dictionary={dictionary} />
-               <Services dictionary={dictionary} />
+               <Products dictionary={dictionary} lang={lang} />
+               <Services dictionary={dictionary} lang={lang} />
                <Partners dictionary={dictionary} />
                <Contact dictionary={dictionary} />
             </main>

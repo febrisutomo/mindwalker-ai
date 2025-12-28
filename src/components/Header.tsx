@@ -34,6 +34,8 @@ type Dictionary = {
 export default function Header({ dictionary, lang }: { dictionary: Dictionary; lang: Locale }) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -121,7 +123,7 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
                   <div className="bg-white rounded-xl shadow-xl w-[280px] p-2 border border-gray-100 overflow-hidden">
                      {[
                         { key: 'aura', icon: 'neurology' },
-                        { key: 'neuralitics', icon: 'dataset' },
+                        { key: 'neuralytics', icon: 'dataset' },
                         { key: 'vision-craft', icon: 'visibility' }
                      ].map((product) => (
                         <Link 
@@ -236,20 +238,83 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
         >
             &times;
         </button>
-        <nav className="px-6 py-4 w-full max-w-sm text-center">
-            <div className="flex flex-col space-y-6">
-            {['home', 'about', 'products', 'services', 'contact'].map((item) => (
+        <nav className="px-6 py-4 w-full max-w-sm text-center font-medium">
+            <div className="flex flex-col space-y-4 w-full cursor-pointer">
+            {['home', 'about'].map((item) => (
               <a
                 key={item}
-                className="text-[#111318] dark:text-white text-xl font-medium leading-normal hover:text-primary transition-colors py-2"
+                className="text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
                 href={`#${item}`}
                 onClick={(e) => scrollToSection(e, item)}
               >
                 {dictionary.navigation[item as keyof typeof dictionary.navigation]}
               </a>
             ))}
+
+            {/* Mobile Products Dropdown */}
+            <div className="w-full">
+                <button 
+                  className="w-full flex items-center justify-center gap-2 text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
+                  onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                >
+                  {dictionary.navigation.products}
+                  <span className={`material-symbols-outlined transition-transform duration-300 ${mobileProductsOpen ? 'rotate-180' : ''}`}>expand_more</span>
+                </button>
+                <div className={`flex flex-col gap-2 overflow-hidden transition-all duration-300 ${mobileProductsOpen ? 'max-h-[500px] opacity-100 mt-2' : 'max-h-0 opacity-0'}`}>
+                     {[
+                        { key: 'aura' },
+                        { key: 'neuralytics' },
+                        { key: 'vision-craft' }
+                     ].map((product) => (
+                        <Link 
+                            key={product.key} 
+                            href={`/${lang}/products/${product.key}`}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="text-gray-600 dark:text-gray-300 text-lg hover:text-primary py-1"
+                        >
+                            {dictionary.products_detail?.[product.key as keyof typeof dictionary.products_detail]?.hero?.title || product.key}
+                        </Link>
+                     ))}
+                </div>
+            </div>
+
+            {/* Mobile Services Dropdown */}
+            <div className="w-full">
+                <button 
+                  className="w-full flex items-center justify-center gap-2 text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
+                  onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                >
+                  {dictionary.navigation.services}
+                  <span className={`material-symbols-outlined transition-transform duration-300 ${mobileServicesOpen ? 'rotate-180' : ''}`}>expand_more</span>
+                </button>
+                <div className={`flex flex-col gap-2 overflow-hidden transition-all duration-300 ${mobileServicesOpen ? 'max-h-[500px] opacity-100 mt-2' : 'max-h-0 opacity-0'}`}>
+                     {[
+                        { key: 'modelforge' },
+                        { key: 'dataforge' },
+                        { key: 'agentforge' }
+                     ].map((service) => (
+                        <Link 
+                            key={service.key} 
+                            href={`/${lang}/services/${service.key}`}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="text-gray-600 dark:text-gray-300 text-lg hover:text-primary py-1"
+                        >
+                            {dictionary.services_detail?.[service.key as keyof typeof dictionary.services_detail]?.title || service.key}
+                        </Link>
+                     ))}
+                </div>
+            </div>
+
+             <a
+                className="text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
+                href="#contact"
+                onClick={(e) => scrollToSection(e, 'contact')}
+              >
+                {dictionary.navigation.contact}
+              </a>
+
             <button
-              className="book-demo-btn bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-bold leading-normal transition-all duration-300 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mt-4"
+              className="book-demo-btn bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-bold leading-normal transition-all duration-300 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mt-4 w-full"
               data-book-demo
                onClick={() => {
                    setMobileMenuOpen(false);

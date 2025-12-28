@@ -1,4 +1,7 @@
-export default function Services({ dictionary }: { dictionary: any }) {
+import Link from 'next/link'
+import type { Locale } from '@/i18n-config'
+
+export default function Services({ dictionary, lang }: { dictionary: any; lang: Locale }) {
   const services = [
     { key: 'modelforge', icon: 'code_blocks' },
     { key: 'dataforge', icon: 'analytics' },
@@ -12,7 +15,7 @@ export default function Services({ dictionary }: { dictionary: any }) {
   ]
 
   return (
-    <section id="services" className="px-6 sm:px-10 lg:px-20 py-16 lg:py-24">
+    <section id="services" className="px-6 sm:px-10 lg:px-20 py-16 lg:py-24 bg-gray-50 dark:bg-[#0c121e]">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#111318] dark:text-white mb-4">
@@ -23,22 +26,29 @@ export default function Services({ dictionary }: { dictionary: any }) {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {services.map(({ key, icon }) => (
-            <div
+            <Link
               key={key}
-              className="flex flex-1 flex-col gap-4 rounded-xl border border-[#E5E7EB] dark:border-gray-700 bg-white dark:bg-[#101622] p-6 transition-all hover:shadow-lg hover:-translate-y-1"
+              href={`/${lang}/services/${key}`}
+              className="flex flex-1 flex-col gap-4 rounded-xl border border-[#E5E7EB] dark:border-gray-700 bg-white dark:bg-[#101622] p-6 transition-all hover:shadow-lg hover:-translate-y-1 group"
             >
-              <span className="material-symbols-outlined text-primary !text-3xl">{icon}</span>
+              <div className="h-12 w-12 flex items-center justify-start text-primary group-hover:text-primary transition-colors duration-300">
+                  <span className="material-symbols-outlined text-4xl">{icon}</span>
+              </div>
               <div className="flex flex-col gap-1">
-                <h3 className="text-[#0A2540] dark:text-white text-lg font-bold">
+                <h3 className="text-[#0A2540] dark:text-white text-lg font-bold group-hover:text-primary transition-colors">
                   {dictionary.services[key].title}
                 </h3>
-                <p className="text-[#1F2937] dark:text-gray-300 text-sm">
+                <p className="text-[#1F2937] dark:text-gray-300 text-sm flex-grow">
                   {dictionary.services[key].description}
                 </p>
               </div>
-            </div>
+              <div className="flex items-center text-primary font-bold text-sm group/link">
+                  {dictionary.services.learnMore}
+                  <span className="material-symbols-outlined ml-2 text-lg transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+              </div>
+            </Link>
           ))}
         </div>
         

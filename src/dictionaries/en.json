@@ -45,7 +45,7 @@
       "description": "Data Insights powered by AI to drive smarter business decisions with lightning-fast processing and intuitive dashboards.",
       "tags": ["Data Analytics", "Business Intelligence"]
     },
-    "visioncraft": {
+    "vision-craft": {
       "title": "Vision Craft",
       "subtitle": "AI Creative Suite Platform",
       "description": "AI Creative Suite for unparalleled accuracy in image and video analysis, enabling automated quality control and intelligent monitoring.",
@@ -56,6 +56,7 @@
   "services": {
     "title": "Our AI Services",
     "description": "Empowering businesses through comprehensive artificial intelligence services that drive innovation and efficiency across all industries.",
+    "learnMore": "Learn More",
     "modelforge": {
       "title": "ModelForge (Custom AI Model Development)",
       "description": "Building tailored AI & machine learning models for your unique challenges and requirements."
@@ -243,7 +244,7 @@
         "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
       }
     },
-    "neuralitics": {
+    "neuralytics": {
       "hero": {
         "title": "Neuralytics",
         "subtitle": "AI Data Intelligence Platform",

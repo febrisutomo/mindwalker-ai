@@ -45,7 +45,7 @@
       "description": "Wawasan Data yang didukung oleh AI untuk mendorong keputusan bisnis yang lebih cerdas dengan pemrosesan secepat kilat dan dasbor intuitif.",
       "tags": ["Analisis Data", "Intelijen Bisnis"]
     },
-    "visioncraft": {
+    "vision-craft": {
       "title": "Vision Craft",
       "subtitle": "Platform Suite Kreatif AI",
       "description": "Suite Kreatif AI untuk akurasi tak tertandingi dalam analisis gambar dan video, memungkinkan kontrol kualitas otomatis dan pemantauan cerdas.",
@@ -56,6 +56,7 @@
   "services": {
     "title": "Layanan AI Kami",
     "description": "Memberdayakan bisnis melalui layanan kecerdasan buatan komprehensif yang mendorong inovasi dan efisiensi di seluruh industri.",
+    "learnMore": "Pelajari Lebih Lanjut",
     "modelforge": {
       "title": "ModelForge (Pengembangan Model AI Kustom)",
       "description": "Membangun model AI & pembelajaran mesin yang disesuaikan untuk tantangan dan kebutuhan unik Anda."
@@ -243,7 +244,7 @@
         "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
       }
     },
-    "neuralitics": {
+    "neuralytics": {
       "hero": {
         "title": "Neuralytics",
         "subtitle": "AI Data Intelligence Platform",

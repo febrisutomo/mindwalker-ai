@@ -20,7 +20,7 @@ export default async function ProductPage({
 
   const allProducts = [
     { key: 'aura', icon: 'neurology' },
-    { key: 'neuralitics', icon: 'dataset' },
+    { key: 'neuralytics', icon: 'dataset' },
     { key: 'vision-craft', icon: 'visibility' }
   ]
 
