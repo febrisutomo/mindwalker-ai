@@ -23,7 +23,6 @@ export default async function Page({
       <div className="layout-container flex h-full grow flex-col">
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col w-full">
-            <Header dictionary={dictionary} lang={lang} />
             <main className="flex-grow">
                <Hero dictionary={dictionary} />
                <About dictionary={dictionary} />
@@ -32,11 +31,9 @@ export default async function Page({
                <Partners dictionary={dictionary} />
                <Contact dictionary={dictionary} />
             </main>
-            <Footer dictionary={dictionary} />
           </div>
         </div>
       </div>
-      <LeadModal dictionary={dictionary} />
     </div>
   )
 }

@@ -152,5 +152,168 @@
       "text": "Kami telah menerima permintaan demo Anda. Tim kami akan menghubungi Anda dalam waktu 24 jam untuk menjadwalkan demonstrasi yang dipersonalisasi.",
       "close": "Tutup"
     }
+  },
+  "services_detail": {
+    "modelforge": {
+      "title": "ModelForge",
+      "subtitle": "Pengembangan Model AI Kustom",
+      "hero": {
+        "title": "Mempercepat Inovasi Melalui Model AI Kustom",
+        "description": "ModelForge adalah solusi generasi berikutnya yang mendorong Revolusi AI dengan membangun Platform AI dan Alat AI yang disesuaikan untuk tantangan bisnis nyata. Kami membantu perusahaan berinovasi lebih cepat menggunakan model AI dan pembelajaran mesin kustom.",
+        "button": "Mulai Hari Ini"
+      },
+      "main": {
+        "title": "Menempa Model AI yang Disesuaikan dengan Kebutuhan Bisnis Anda",
+        "description": "ModelForge menempa solusi Kecerdasan Sosial AI, Suite Kreatif AI, dan Intelijen Bisnis (Analisis Data) yang dibangun khusus—dirancang dari awal agar sesuai dengan setiap bisnis—memungkinkan pemahaman audiens yang lebih dalam, pembuatan konten berkualitas tinggi otomatis, dan pengambilan keputusan berbasis data."
+      },
+      "cta": {
+        "title": "Mulai Hari Ini",
+        "description": "ModelForge adalah mitra strategis Anda dalam membangun Platform AI yang dapat diskalakan, aman, dan siap masa depan yang mempercepat transformasi digital"
+      }
+    },
+    "dataforge": {
+      "title": "DataForge",
+      "subtitle": "Rekayasa Dataset",
+      "hero": {
+        "title": "Kekuatan DataForge",
+        "description": "DataForge mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan analisis data canggih, DataForge membantu bisnis mengungkap tren, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
+        "button": "Mulai Hari Ini"
+      },
+      "main": {
+        "title": "Bagaimana DataForge Bekerja",
+        "description": "Dengan DataForge, perusahaan dapat memproses dan menganalisis data dari berbagai sumber untuk mengungkap pola tersembunyi, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dibangun untuk memenuhi kebutuhan bisnis yang unik, DataForge memastikan bahwa setiap wawasan praktis, relevan, dan siap mendorong pertumbuhan."
+      },
+      "cta": {
+        "title": "Mulai Hari Ini",
+        "description": "Mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan bisnis"
+      }
+    },
+    "agentforge": {
+      "title": "AgentForge",
+      "subtitle": "Pengembangan, Integrasi & Otomatisasi Agen AI",
+      "hero": {
+        "title": "Tingkatkan Produktivitas Melalui Otomatisasi AI Cerdas",
+        "description": "AgentForge (Pengembangan, Integrasi & Otomatisasi Agen AI) membangun agen AI untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI kustom, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja keseluruhan",
+        "button": "Mulai Hari Ini"
+      },
+      "main": {
+        "title": "Buka Efisiensi dengan Agen AI yang Disesuaikan",
+        "description": "Dengan AgentForge, bisnis dapat mengintegrasikan agen AI secara mulus ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap agen disesuaikan untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih cerdas dan keuntungan produktivitas yang terukur."
+      },
+      "cta": {
+        "title": "Mulai Hari Ini",
+        "description": "Membangun dan mengintegrasikan agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas."
+      }
+    }
+  },
+  "products_detail": {
+    "aura": {
+      "hero": {
+        "title": "AURA",
+        "subtitle": "AI Social Intelligence Platform",
+        "description": "Discover AURA, an AI Platform empowering brands with intelligent social awareness using multichannel sentiment analysis, smart auto-response technology, and real-time crisis & reputation monitoring.",
+        "button": "Get Started"
+      },
+      "main": {
+        "title": "Smarter Social Intelligence with AI",
+        "description": "Powered by intelligent AI Tools, AURA is an Platform built for the AI Revolution, enabling real-time social media monitoring, multichannel sentiment analysis, and automated engagement driven by Data Analytics. AURA helps brands stay relevant, responsive, and trusted in a fast-moving digital landscape."
+      },
+      "why": {
+        "title": "Why AURA",
+        "items": [
+          {
+            "title": "Data-Driven Insights",
+            "description": "Turn social conversations into actionable insights with AI-powered Data Analytics.",
+            "icon": "analytics"
+          },
+          {
+            "title": "Intelligent Engagement",
+            "description": "Respond faster and smarter using Smart Auto-Response System built for modern Marketing AI strategies.",
+            "icon": "chat"
+          },
+          {
+            "title": "One Unified AI Platform",
+            "description": "All essential AI Tools for social monitoring, sentiment analysis, and reputation management—inside one AI Platform.",
+            "icon": "layers"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Get Started Today",
+        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+      }
+    },
+    "neuralitics": {
+      "hero": {
+        "title": "Neuralytics",
+        "subtitle": "AI Data Intelligence Platform",
+        "description": "Neuralytics is an AI Platform that transforms business data into actionable insights with advanced Data Analytics. With intelligent AI Tools, it enables companies to process information quickly, accurately, and efficiently.",
+        "button": "Get Started"
+      },
+      "main": {
+        "title": "Transform Data into Actionable Insights",
+        "description": "By leveraging advanced Data Analytics and intelligent AI Tools, Neuralytics provides real-time monitoring and intuitive business intelligence dashboards that help businesses make faster, smarter decisions. Integrated Marketing AI ensures businesses stay relevant, responsive, and competitive in a fast-paced digital landscape."
+      },
+      "why": {
+        "title": "Why Neuralytics",
+        "items": [
+          {
+            "title": "Lightning-Fast Data Processing",
+            "description": "Process large datasets instantly with Data Analytics for smarter decisions.",
+            "icon": "bolt"
+          },
+          {
+            "title": "Actionable Business Intelligence",
+            "description": "With intuitive dashboards and AI-powered analytics, Neuralytics transforms raw data into meaningful insights for strategy and performance improvement.",
+            "icon": "lightbulb"
+          },
+          {
+            "title": "Comprehensive AI Platform",
+            "description": "Essential AI Tools are combined in a single AI Platform, providing a seamless experience for monitoring, analysis, and business decision-making",
+            "icon": "dataset"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Get Started Today",
+        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+      }
+    },
+    "vision-craft": {
+      "hero": {
+        "title": "Vision Craft",
+        "subtitle": "AI Creative Suite Platform",
+        "description": "Creative Suite for accurate image and video analysis, enabling automated quality control and intelligent monitoring.",
+        "button": "Get Started"
+      },
+      "main": {
+        "title": "Creative Workflows Powered by AI",
+        "description": "Vision Craft is an AI Platform designed for the AI Revolution, helping brands streamline content creation. By leveraging Generated Content AI, AI Video, and AI Photo, Vision Craft provides intelligent tools for precise analysis, automated quality control, and optimized creative workflows. With integrated Marketing AI, teams can produce high-quality content faster, smarter, and more efficiently."
+      },
+      "why": {
+        "title": "Why Vision Craft",
+        "items": [
+          {
+            "title": "AI-Powered Content Accuracy",
+            "description": "Ensure unparalleled precision in image and video analysis, reducing errors and improving quality control.",
+            "icon": "check_circle"
+          },
+          {
+            "title": "Smarter Content Creation",
+            "description": "Leverage Generated Content AI, AI Video, and AI Photo to streamline creative workflows and produce high-quality content faster.",
+            "icon": "auto_awesome"
+          },
+          {
+            "title": "Advanced AI Platform",
+            "description": "All essential AI Tools are available in a single AI Platform, supporting monitoring, analysis, and efficient creative production.",
+            "icon": "integration_instructions"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Get Started Today",
+        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+      }
+    }
   }
 }

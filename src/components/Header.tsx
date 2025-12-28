@@ -16,6 +16,19 @@ type Dictionary = {
     contact: string
     bookDemo: string
   }
+  services_detail?: {
+      [key: string]: {
+          title: string
+          description?: string
+      }
+  }
+  products_detail?: {
+      [key: string]: {
+          hero: {
+              title: string
+          }
+      }
+  }
 }
 
 export default function Header({ dictionary, lang }: { dictionary: Dictionary; lang: Locale }) {
@@ -55,12 +68,14 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
   return (
     <>
       <header
-        id="main-header"
-        className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-          isScrolled ? 'py-2 backdrop-blur-sm bg-white/80 shadow-sm' : 'py-4 bg-transparent'
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          isScrolled ? 'py-2' : 'py-4'
         }`}
       >
-        <div className="w-full max-w-[1280px] mx-auto px-6 sm:px-10 lg:px-20 flex items-center justify-between whitespace-nowrap">
+        <div className={`absolute inset-0 transition-opacity duration-300 ${
+          isScrolled ? 'bg-white/80 dark:bg-[#101622]/80 backdrop-blur-md shadow-sm' : 'bg-transparent'
+        }`}></div>
+        <div className="w-full max-w-[1280px] mx-auto px-6 sm:px-10 lg:px-20 flex items-center justify-between whitespace-nowrap relative z-10">
           <div className="logo-text-container">
             <Link href={`/${lang}`} className="logo-wrapper">
               <Image
@@ -75,18 +90,91 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
           </div>
           <div className="hidden md:flex flex-1 justify-end gap-8">
             <div className="flex items-center gap-9">
-              {['home', 'about', 'products', 'services', 'contact'].map((item) => (
-                <a
-                  key={item}
+              <Link
                   className={`text-sm font-medium leading-normal transition-colors cursor-pointer ${
                     isScrolled ? 'text-[#111318] hover:text-primary' : 'text-gray-200 hover:text-white'
                   }`}
-                  href={`#${item}`}
-                  onClick={(e) => scrollToSection(e, item)}
+                  href={`/${lang}#home`}
+              >
+                  {dictionary.navigation.home}
+              </Link>
+              <Link
+                  className={`text-sm font-medium leading-normal transition-colors cursor-pointer ${
+                    isScrolled ? 'text-[#111318] hover:text-primary' : 'text-gray-200 hover:text-white'
+                  }`}
+                  href={`/${lang}#about`}
+              >
+                  {dictionary.navigation.about}
+              </Link>
+
+              {/* Products Dropdown */}
+               <div className="relative group">
+                <button
+                  className={`flex items-center gap-1 text-sm font-medium leading-normal transition-colors cursor-pointer ${
+                     isScrolled ? 'text-[#111318] hover:text-primary' : 'text-gray-200 hover:text-white'
+                  }`}
                 >
-                  {dictionary.navigation[item as keyof typeof dictionary.navigation]}
-                </a>
-              ))}
+                  {dictionary.navigation.products}
+                  <span className="material-symbols-outlined text-lg">expand_more</span>
+                </button>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                  <div className="bg-white rounded-xl shadow-xl w-[280px] p-2 border border-gray-100 overflow-hidden">
+                     {[
+                        { key: 'aura', icon: 'neurology' },
+                        { key: 'neuralitics', icon: 'dataset' },
+                        { key: 'vision-craft', icon: 'visibility' }
+                     ].map((product) => (
+                        <Link 
+                            key={product.key} 
+                            href={`/${lang}/products/${product.key}`}
+                            className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group/item"
+                        >
+                            <span className="material-symbols-outlined text-primary group-hover/item:scale-110 transition-transform">{product.icon}</span>
+                            <span className="text-gray-700 text-sm font-medium">{dictionary.products_detail?.[product.key as keyof typeof dictionary.products_detail]?.hero?.title || product.key}</span>
+                        </Link>
+                     ))}
+                  </div>
+                </div>
+              </div>
+
+               {/* Services Dropdown */}
+              <div className="relative group">
+                <button
+                  className={`flex items-center gap-1 text-sm font-medium leading-normal transition-colors cursor-pointer ${
+                     isScrolled ? 'text-[#111318] hover:text-primary' : 'text-gray-200 hover:text-white'
+                  }`}
+                >
+                  {dictionary.navigation.services}
+                  <span className="material-symbols-outlined text-lg">expand_more</span>
+                </button>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                  <div className="bg-white rounded-xl shadow-xl w-[280px] p-2 border border-gray-100 overflow-hidden">
+                     {[
+                        { key: 'modelforge', icon: 'code_blocks' },
+                        { key: 'dataforge', icon: 'analytics' },
+                        { key: 'agentforge', icon: 'settings_ethernet' }
+                     ].map((service) => (
+                        <Link 
+                            key={service.key} 
+                            href={`/${lang}/services/${service.key}`}
+                            className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group/item"
+                        >
+                            <span className="material-symbols-outlined text-primary group-hover/item:scale-110 transition-transform">{service.icon}</span>
+                            <span className="text-gray-700 text-sm font-medium">{dictionary.services_detail?.[service.key as keyof typeof dictionary.services_detail]?.title || service.key}</span>
+                        </Link>
+                     ))}
+                  </div>
+                </div>
+              </div>
+
+              <Link
+                  className={`text-sm font-medium leading-normal transition-colors cursor-pointer ${
+                    isScrolled ? 'text-[#111318] hover:text-primary' : 'text-gray-200 hover:text-white'
+                  }`}
+                  href={`/${lang}#contact`}
+              >
+                  {dictionary.navigation.contact}
+              </Link>
               
               <div className={`flex items-center rounded-full p-1 border transition-colors ${
                 isScrolled ? 'bg-gray-100 border-gray-200' : 'bg-white/10 border-white/20'
@@ -124,7 +212,7 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
           <div className="md:hidden">
             <button
               id="mobileMenuButton"
-              className={`mobile-menu-button p-2 ${isScrolled ? 'text-[#111318] dark:text-white' : 'text-white'}`}
+              className={`mobile-menu-button p-2 ${ isScrolled ? 'text-[#111318] dark:text-white' : 'text-white'}`}
               aria-expanded={mobileMenuOpen}
               aria-label="Toggle mobile menu"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
