@@ -1,0 +1,156 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "services": "Layanan",
+    "contact": "Kontak",
+    "bookDemo": "Pesan Demo"
+  },
+  "hero": {
+    "titlePrefix": "Merintis Masa Depan",
+    "typingTexts": ["AI Terapan", "Sistem AI", "Perusahaan Bertenaga AI"],
+    "subtitle": "Mengubah industri melalui penelitian AI mutakhir, solusi inovatif, dan kecerdasan terapan yang mendorong kemajuan manusia.",
+    "getStarted": "Mulai Sekarang",
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "about": {
+    "title": "Mengapa Memilih Mindwalker.ai?",
+    "description": "Kami tidak hanya membangun solusi AI – kami merancang masa depan sistem cerdas yang terintegrasi secara mulus dengan bisnis Anda untuk mendorong pertumbuhan dan inovasi yang belum pernah terjadi sebelumnya.",
+    "mission": {
+      "title": "Misi Kami",
+      "description": "Untuk memanfaatkan kekuatan kecerdasan buatan guna memecahkan tantangan global yang kompleks dan mendorong kemajuan manusia melalui penelitian inovatif dan solusi terapan."
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "description": "Untuk menciptakan masa depan di mana sistem cerdas terintegrasi secara mulus dengan masyarakat, memperkaya kehidupan, dan membuka potensi yang belum pernah terjadi sebelumnya bagi semua orang."
+    },
+    "values": {
+      "title": "Nilai Kami",
+      "description": "Inovasi, Integritas, Kolaborasi, Keunggulan, dan Tanggung Jawab. Prinsip-prinsip ini memandu tindakan kami dan mendefinisikan budaya kami."
+    }
+  },
+  "products": {
+    "title": "Produk AI Kami",
+    "description": "Solusi AI perintis yang dirancang untuk mengubah industri Anda dengan teknologi mutakhir dan kinerja tak tertandingi.",
+    "aura": {
+      "title": "AURA",
+      "subtitle": "Platform Kecerdasan Sosial AI",
+      "description": "Memberdayakan merek dengan kesadaran sosial cerdas melalui Analisis Sentimen Multisaluran, Sistem Respons Otomatis Cerdas, Pemantauan Krisis & Reputasi, dan lain-lain.",
+      "tags": ["Pemantauan Media Sosial", "Analisis Sentimen"]
+    },
+    "neuralytics": {
+      "title": "Neuralytics",
+      "subtitle": "Platform Kecerdasan Data AI",
+      "description": "Wawasan Data yang didukung oleh AI untuk mendorong keputusan bisnis yang lebih cerdas dengan pemrosesan secepat kilat dan dasbor intuitif.",
+      "tags": ["Analisis Data", "Intelijen Bisnis"]
+    },
+    "visioncraft": {
+      "title": "Vision Craft",
+      "subtitle": "Platform Suite Kreatif AI",
+      "description": "Suite Kreatif AI untuk akurasi tak tertandingi dalam analisis gambar dan video, memungkinkan kontrol kualitas otomatis dan pemantauan cerdas.",
+      "tags": ["Konten Buatan AI", "Pembuatan Konten"]
+    },
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "services": {
+    "title": "Layanan AI Kami",
+    "description": "Memberdayakan bisnis melalui layanan kecerdasan buatan komprehensif yang mendorong inovasi dan efisiensi di seluruh industri.",
+    "modelforge": {
+      "title": "ModelForge (Pengembangan Model AI Kustom)",
+      "description": "Membangun model AI & pembelajaran mesin yang disesuaikan untuk tantangan dan kebutuhan unik Anda."
+    },
+    "dataforge": {
+      "title": "DataForge (Rekayasa Dataset)",
+      "description": "Mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan."
+    },
+    "agentforge": {
+      "title": "AgentForge (Pengembangan, Integrasi & Otomatisasi Agen AI)",
+      "description": "Membangun agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas."
+    },
+    "standout": {
+      "title": "Mengapa Layanan Kami Unggul",
+      "efficiency": {
+        "title": "Peningkatan Efisiensi",
+        "description": "Sederhanakan operasi dan otomatisasi tugas kompleks untuk menghemat waktu dan sumber daya."
+      },
+      "decisions": {
+        "title": "Keputusan Berbasis Data",
+        "description": "Buka wawasan kuat dari data Anda untuk membuat keputusan bisnis yang lebih cerdas dan lebih cepat."
+      },
+      "competitive": {
+        "title": "Keunggulan Kompetitif",
+        "description": "Berinovasi dan mengungguli pesaing dengan memanfaatkan kemajuan terbaru dalam AI."
+      }
+    }
+  },
+  "partners": {
+    "title": "Mitra Teknologi Kami"
+  },
+  "contact": {
+    "title": "Siap Mengubah Bisnis Anda?",
+    "subtitle": "Diskusikan bagaimana solusi AI kami dapat mendorong bisnis Anda maju. Hubungi pakar kami hari ini.",
+    "form": {
+      "title": "Kirim Pesan",
+      "firstName": "Nama Depan",
+      "lastName": "Nama Belakang",
+      "email": "Alamat Email",
+      "company": "Perusahaan",
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "success": "Terima kasih atas pesan Anda! Kami akan segera menghubungi Anda.",
+      "placeholders": {
+        "firstName": "Budi",
+        "lastName": "Santoso",
+        "email": "anda@contoh.com",
+        "company": "Perusahaan Anda",
+        "message": "Ceritakan tentang proyek Anda..."
+      }
+    },
+    "getStarted": {
+      "title": "Mulai Hari Ini",
+      "description": "Siap melihat apa yang bisa dilakukan AI untuk bisnis Anda? Jadwalkan konsultasi gratis dengan pakar kami.",
+      "button": "Jadwalkan Konsultasi Gratis",
+      "emailText": "Atau email kami langsung di:"
+    },
+    "newsletter": {
+      "title": "Tetap Terinformasi",
+      "description": "Berlangganan buletin kami untuk inovasi AI terbaru, pembaruan perusahaan, dan wawasan eksklusif.",
+      "placeholder": "Masukkan email Anda",
+      "button": "Berlangganan",
+      "subscribing": "Berlangganan...",
+      "success": "Terima kasih telah berlangganan buletin kami!"
+    }
+  },
+  "footer": {
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "copyright": "© 2025 Mindwalker.ai. Hak Cipta Dilindungi Undang-Undang."
+  },
+  "modal": {
+    "title": "Mulai dengan Mindwalker.ai",
+    "subtitle": "Bergabunglah dengan ribuan inovator yang membentuk masa depan AI. Dapatkan akses eksklusif ke wawasan dan solusi terbaru kami.",
+    "fullName": "Nama Lengkap *",
+    "email": "Alamat Email *",
+    "interest": "Minat Utama *",
+    "interests": {
+      "default": "Pilih minat utama Anda",
+      "aura": "AURA",
+      "neuralytics": "Neuralytics",
+      "visioncraft": "Vision Craft",
+      "modelforge": "ModelForge",
+      "agentforge": "AgentForge",
+      "dataforge": "DataForge",
+      "partnership": "Peluang Kemitraan",
+      "other": "Lainnya"
+    },
+    "submit": "Mulai",
+    "submitting": "Mengirim...",
+    "success": {
+      "title": "Terima kasih!",
+      "text": "Kami telah menerima permintaan demo Anda. Tim kami akan menghubungi Anda dalam waktu 24 jam untuk menjadwalkan demonstrasi yang dipersonalisasi.",
+      "close": "Tutup"
+    }
+  }
+}
