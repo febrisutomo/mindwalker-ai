@@ -89,8 +89,8 @@
     "title": "Mitra Teknologi Kami"
   },
   "contact": {
-    "title": "Siap Mengubah Bisnis Anda?",
-    "subtitle": "Diskusikan bagaimana solusi AI kami dapat mendorong bisnis Anda maju. Hubungi pakar kami hari ini.",
+    "title": "Siap untuk Transformasikan Bisnis Anda?",
+    "subtitle": "Temukan bagaimana solusi AI kami bisa mentrasformasikan bisnis Anda. Konsultasikan dengan tim ahli kami hari ini.",
     "form": {
       "title": "Kirim Pesan",
       "firstName": "Nama Depan",
@@ -111,13 +111,13 @@
     },
     "getStarted": {
       "title": "Mulai Hari Ini",
-      "description": "Siap melihat apa yang bisa dilakukan AI untuk bisnis Anda? Jadwalkan konsultasi gratis dengan pakar kami.",
+      "description": "Siap melihat bagaimana AI dapat mengubah bisnis Anda? Jadwalkan konsultasi gratis dengan para ahli kami.",
       "button": "Jadwalkan Konsultasi Gratis",
       "emailText": "Atau email kami langsung di:"
     },
     "newsletter": {
-      "title": "Tetap Terinformasi",
-      "description": "Berlangganan buletin kami untuk inovasi AI terbaru, pembaruan perusahaan, dan wawasan eksklusif.",
+      "title": "Ikuti Perkembangan",
+      "description": "Langganan newsletter kami untuk mendapatkan informasi terbaru seputar inovasi AI, update perusahaan, dan wawasan eksklusif.",
       "placeholder": "Masukkan email Anda",
       "button": "Berlangganan",
       "subscribing": "Berlangganan...",
