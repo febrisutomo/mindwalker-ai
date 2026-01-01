@@ -10,6 +10,9 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.ico',
+  },
   title: 'Mindwalker.ai - Pioneering the Future of Intelligence',
   description: 'Transforming industries through cutting-edge AI research, innovative solutions, and applied intelligence.',
 }

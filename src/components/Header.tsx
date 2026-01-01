@@ -83,7 +83,7 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
               <Image
                 src="/mindwalker-logo.png"
                 alt="Mindwalker.ai Logo"
-                width={200}
+                width={48}
                 height={48}
                 className="mindwalker-logo h-12 w-auto object-contain"
                 priority

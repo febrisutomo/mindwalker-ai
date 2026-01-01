@@ -211,109 +211,109 @@
     "aura": {
       "hero": {
         "title": "AURA",
-        "subtitle": "AI Social Intelligence Platform",
-        "description": "Discover AURA, an AI Platform empowering brands with intelligent social awareness using multichannel sentiment analysis, smart auto-response technology, and real-time crisis & reputation monitoring.",
-        "button": "Get Started"
+        "subtitle": "Platform Intelijen Sosial AI",
+        "description": "Platform Intelijen Sosial AI. Temukan AURA, Platform AI yang memberdayakan merek dengan kesadaran sosial cerdas menggunakan analisis sentimen multisaluran, teknologi respons otomatis cerdas, dan pemantauan krisis & reputasi waktu nyata.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Smarter Social Intelligence with AI",
-        "description": "Powered by intelligent AI Tools, AURA is an Platform built for the AI Revolution, enabling real-time social media monitoring, multichannel sentiment analysis, and automated engagement driven by Data Analytics. AURA helps brands stay relevant, responsive, and trusted in a fast-moving digital landscape."
+        "title": "Intelijen Sosial Lebih Cerdas dengan AI",
+        "description": "Didukung oleh Alat AI cerdas, AURA adalah Platform yang dibangun untuk Revolusi AI, memungkinkan pemantauan media sosial waktu nyata, analisis sentimen multisaluran, dan keterlibatan otomatis yang didorong oleh Analisis Data. AURA membantu merek tetap relevan, responsif, dan tepercaya dalam lanskap digital yang bergerak cepat."
       },
       "why": {
-        "title": "Why AURA",
+        "title": "Mengapa AURA",
         "items": [
           {
-            "title": "Data-Driven Insights",
-            "description": "Turn social conversations into actionable insights with AI-powered Data Analytics.",
+            "title": "Wawasan Berbasis Data",
+            "description": "Ubah percakapan sosial menjadi wawasan yang dapat ditindaklanjuti dengan Analisis Data berbasis AI.",
             "icon": "analytics"
           },
           {
-            "title": "Intelligent Engagement",
-            "description": "Respond faster and smarter using Smart Auto-Response System built for modern Marketing AI strategies.",
+            "title": "Keterlibatan Cerdas",
+            "description": "Respon lebih cepat dan lebih cerdas menggunakan Sistem Respons Otomatis Cerdas yang dibangun untuk strategi AI Pemasaran modern.",
             "icon": "chat"
           },
           {
-            "title": "One Unified AI Platform",
-            "description": "All essential AI Tools for social monitoring, sentiment analysis, and reputation management—inside one AI Platform.",
+            "title": "Satu Platform AI Terpadu",
+            "description": "Semua Alat AI penting untuk pemantauan sosial, analisis sentimen, dan manajemen reputasi—di dalam satu Platform AI.",
             "icon": "layers"
           }
         ]
       },
       "cta": {
-        "title": "Get Started Today",
-        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+        "title": "Mulai Hari Ini",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
       }
     },
     "neuralytics": {
       "hero": {
         "title": "Neuralytics",
-        "subtitle": "AI Data Intelligence Platform",
-        "description": "Neuralytics is an AI Platform that transforms business data into actionable insights with advanced Data Analytics. With intelligent AI Tools, it enables companies to process information quickly, accurately, and efficiently.",
-        "button": "Get Started"
+        "subtitle": "Platform Intelijen Data AI",
+        "description": "Platform Intelijen Data AI. Neuralytics adalah Platform AI yang mengubah data bisnis menjadi wawasan yang dapat ditindaklanjuti dengan Analisis Data canggih. Dengan Alat AI cerdas, ini memungkinkan perusahaan untuk memproses informasi dengan cepat, akurat, dan efisien.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Transform Data into Actionable Insights",
-        "description": "By leveraging advanced Data Analytics and intelligent AI Tools, Neuralytics provides real-time monitoring and intuitive business intelligence dashboards that help businesses make faster, smarter decisions. Integrated Marketing AI ensures businesses stay relevant, responsive, and competitive in a fast-paced digital landscape."
+        "title": "Ubah Data menjadi Wawasan yang Dapat Ditindaklanjuti",
+        "description": "Dengan memanfaatkan Analisis Data canggih dan Alat AI cerdas, Neuralytics menyediakan pemantauan waktu nyata dan dasbor intelijen bisnis intuitif yang membantu bisnis membuat keputusan lebih cepat dan lebih cerdas. AI Pemasaran terintegrasi memastikan bisnis tetap relevan, responsif, dan kompetitif dalam lanskap digital yang serba cepat."
       },
       "why": {
-        "title": "Why Neuralytics",
+        "title": "Mengapa Neuralytics",
         "items": [
           {
-            "title": "Lightning-Fast Data Processing",
-            "description": "Process large datasets instantly with Data Analytics for smarter decisions.",
+            "title": "Pemrosesan Data Secepat Kilat",
+            "description": "Proses kumpulan data besar secara instan dengan Analisis Data untuk keputusan yang lebih cerdas.",
             "icon": "bolt"
           },
           {
-            "title": "Actionable Business Intelligence",
-            "description": "With intuitive dashboards and AI-powered analytics, Neuralytics transforms raw data into meaningful insights for strategy and performance improvement.",
+            "title": "Intelijen Bisnis yang Dapat Ditindaklanjuti",
+            "description": "Dengan dasbor intuitif dan analisis berbasis AI, Neuralytics mengubah data mentah menjadi wawasan bermakna untuk strategi dan peningkatan kinerja.",
             "icon": "lightbulb"
           },
           {
-            "title": "Comprehensive AI Platform",
-            "description": "Essential AI Tools are combined in a single AI Platform, providing a seamless experience for monitoring, analysis, and business decision-making",
+            "title": "Platform AI Komprehensif",
+            "description": "Alat AI penting digabungkan dalam satu Platform AI tunggal, memberikan pengalaman mulus untuk pemantauan, analisis, dan pengambilan keputusan bisnis",
             "icon": "dataset"
           }
         ]
       },
       "cta": {
-        "title": "Get Started Today",
-        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+        "title": "Mulai Hari Ini",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
       }
     },
     "vision-craft": {
       "hero": {
         "title": "Vision Craft",
-        "subtitle": "AI Creative Suite Platform",
-        "description": "Creative Suite for accurate image and video analysis, enabling automated quality control and intelligent monitoring.",
-        "button": "Get Started"
+        "subtitle": "Platform Suite Kreatif AI",
+        "description": "Platform Suite Kreatif AI. Suite Kreatif untuk analisis gambar dan video yang akurat, memungkinkan kontrol kualitas otomatis dan pemantauan cerdas.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Creative Workflows Powered by AI",
-        "description": "Vision Craft is an AI Platform designed for the AI Revolution, helping brands streamline content creation. By leveraging Generated Content AI, AI Video, and AI Photo, Vision Craft provides intelligent tools for precise analysis, automated quality control, and optimized creative workflows. With integrated Marketing AI, teams can produce high-quality content faster, smarter, and more efficiently."
+        "title": "Alur Kerja Kreatif Didukung oleh AI",
+        "description": "Vision Craft adalah Platform AI yang dirancang untuk Revolusi AI, membantu merek mempermudah pembuatan konten. Dengan memanfaatkan AI Konten Buatan, AI Video, dan AI Foto, Vision Craft menyediakan alat cerdas untuk analisis presisi, kontrol kualitas otomatis, dan alur kerja kreatif yang dioptimalkan. Dengan AI Pemasaran terintegrasi, tim dapat memproduksi konten berkualitas tinggi lebih cepat, lebih cerdas, dan lebih efisien."
       },
       "why": {
-        "title": "Why Vision Craft",
+        "title": "Mengapa Vision Craft",
         "items": [
           {
-            "title": "AI-Powered Content Accuracy",
-            "description": "Ensure unparalleled precision in image and video analysis, reducing errors and improving quality control.",
+            "title": "Akurasi Konten Berbasis AI",
+            "description": "Pastikan presisi tak tertandingi dalam analisis gambar dan video, mengurangi kesalahan dan meningkatkan kontrol kualitas.",
             "icon": "check_circle"
           },
           {
-            "title": "Smarter Content Creation",
-            "description": "Leverage Generated Content AI, AI Video, and AI Photo to streamline creative workflows and produce high-quality content faster.",
+            "title": "Pembuatan Konten Lebih Cerdas",
+            "description": "Manfaatkan AI Konten Buatan, AI Video, dan AI Foto untuk mempermudah alur kerja kreatif dan memproduksi konten berkualitas tinggi lebih cepat.",
             "icon": "auto_awesome"
           },
           {
-            "title": "Advanced AI Platform",
-            "description": "All essential AI Tools are available in a single AI Platform, supporting monitoring, analysis, and efficient creative production.",
+            "title": "Platform AI Canggih",
+            "description": "Semua Alat AI penting tersedia dalam satu Platform AI tunggal, mendukung pemantauan, analisis, dan produksi kreatif yang efisien.",
             "icon": "integration_instructions"
           }
         ]
       },
       "cta": {
-        "title": "Get Started Today",
-        "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
+        "title": "Mulai Hari Ini",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
       }
     }
   }
