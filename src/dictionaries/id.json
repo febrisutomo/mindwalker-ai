@@ -8,80 +8,80 @@
     "bookDemo": "Pesan Demo"
   },
   "hero": {
-    "titlePrefix": "Merintis Masa Depan",
-    "typingTexts": ["AI Terapan", "Sistem AI", "Perusahaan Bertenaga AI"],
-    "subtitle": "Mengubah industri melalui penelitian AI mutakhir, solusi inovatif, dan kecerdasan terapan yang mendorong kemajuan manusia.",
-    "getStarted": "Mulai Sekarang",
+    "titlePrefix": "Membangun Masa Depan Digital Melalui",
+    "typingTexts": ["AI Terapan", "Sistem Cerdas AI", "Bisnis Berbasis AI"],
+    "subtitle": "Mentransformasikan Industri melalui Riset AI Mutakhir, Solusi Inovatif, dan Kecerdasan Terapan untuk Mendorong Kemajuan",
+    "getStarted": "Mulai Transformasi",
     "learnMore": "Pelajari Lebih Lanjut"
   },
   "about": {
-    "title": "Mengapa Memilih Mindwalker.ai?",
-    "description": "Kami tidak hanya membangun solusi AI – kami merancang masa depan sistem cerdas yang terintegrasi secara mulus dengan bisnis Anda untuk mendorong pertumbuhan dan inovasi yang belum pernah terjadi sebelumnya.",
+    "title": "Kenapa Memilih Mindwalker.ai?",
+    "description": "Kami tidak hanya mengembangkan solusi AI – kami merancang masa depan sistem cerdas yang terintegrasi sempurna dengan bisnis Anda untuk meningkatkan efisiensi, dan mendorong inovasi",
     "mission": {
       "title": "Misi Kami",
-      "description": "Untuk memanfaatkan kekuatan kecerdasan buatan guna memecahkan tantangan global yang kompleks dan mendorong kemajuan manusia melalui penelitian inovatif dan solusi terapan."
+      "description": "Mengoptimalkan Kecerdasan Buatan untuk Memecahkan Tantangan Global dan Mendorong Kemajuan Manusia melalui Riset Terobosan dan Solusi Terapan"
     },
     "vision": {
       "title": "Visi Kami",
-      "description": "Untuk menciptakan masa depan di mana sistem cerdas terintegrasi secara mulus dengan masyarakat, memperkaya kehidupan, dan membuka potensi yang belum pernah terjadi sebelumnya bagi semua orang."
+      "description": "Menciptakan Masa Depan di Mana Sistem Cerdas Terintegrasi Sempurna dengan Masyarakat, Meningkatkan Kualitas Hidup, dan Membuka Potensi Tak Terbatas bagi Semua."
     },
     "values": {
       "title": "Nilai Kami",
-      "description": "Inovasi, Integritas, Kolaborasi, Keunggulan, dan Tanggung Jawab. Prinsip-prinsip ini memandu tindakan kami dan mendefinisikan budaya kami."
+      "description": "Inovasi, Integritas, Kolaborasi, Keunggulan, dan Tanggung Jawab. Prinsip-prinsip ini mengarahkan langkah kami dan membentuk budaya kami untuk menciptakan masa depan yang lebih baik."
     }
   },
   "products": {
     "title": "Produk AI Kami",
-    "description": "Solusi AI perintis yang dirancang untuk mengubah industri Anda dengan teknologi mutakhir dan kinerja tak tertandingi.",
+    "description": "Solusi AI terdepan yang dirancang untuk mentransformasi industri Anda dengan teknologi mutakhir dan performa unggul",
     "aura": {
       "title": "AURA",
       "subtitle": "Platform Kecerdasan Sosial AI",
-      "description": "Memberdayakan merek dengan kesadaran sosial cerdas melalui Analisis Sentimen Multisaluran, Sistem Respons Otomatis Cerdas, Pemantauan Krisis & Reputasi, dan lain-lain.",
+      "description": "Mengoptimalkan brand dengan social awareness berbasis AI melalui Multichannel Sentiment Analysis, Smart Auto-Response System, serta Crisis & Reputation Monitoring untuk pengambilan keputusan yang tepat",
       "tags": ["Pemantauan Media Sosial", "Analisis Sentimen"]
     },
     "neuralytics": {
       "title": "Neuralytics",
       "subtitle": "Platform Kecerdasan Data AI",
-      "description": "Wawasan Data yang didukung oleh AI untuk mendorong keputusan bisnis yang lebih cerdas dengan pemrosesan secepat kilat dan dasbor intuitif.",
+      "description": "Insight data berbasis Artificial Intelligence yang mengubah data kompleks menjadi keputusan bisnis yang lebih cerdas, cepat, dan terukur melalui pemrosesan real-time dan dashboard yang intuitif.",
       "tags": ["Analisis Data", "Intelijen Bisnis"]
     },
     "vision-craft": {
       "title": "Vision Craft",
       "subtitle": "Platform Suite Kreatif AI",
-      "description": "Suite Kreatif AI untuk akurasi tak tertandingi dalam analisis gambar dan video, memungkinkan kontrol kualitas otomatis dan pemantauan cerdas.",
+      "description": "Analisis gambar dan video secara otomatis, pastikan kualitas terbaik, dan buat keputusan lebih cepat dengan teknologi AI yang pintar dan mudah digunakan",
       "tags": ["Konten Buatan AI", "Pembuatan Konten"]
     },
     "learnMore": "Pelajari Lebih Lanjut"
   },
   "services": {
     "title": "Layanan AI Kami",
-    "description": "Memberdayakan bisnis melalui layanan kecerdasan buatan komprehensif yang mendorong inovasi dan efisiensi di seluruh industri.",
+    "description": "Mengubah industri dengan solusi AI cerdas yang mendorong pertumbuhan, meningkatkan produktivitas, dan membuka peluang baru bagi setiap bisnis",
     "learnMore": "Pelajari Lebih Lanjut",
     "modelforge": {
-      "title": "ModelForge (Pengembangan Model AI Kustom)",
-      "description": "Membangun model AI & pembelajaran mesin yang disesuaikan untuk tantangan dan kebutuhan unik Anda."
+      "title": "ModelForge (Custom AI Model Development)",
+      "description": "Membangun model AI & Machine Learning yang disesuaikan untuk tantangan dan kebutuhan unik Anda"
     },
     "dataforge": {
-      "title": "DataForge (Rekayasa Dataset)",
-      "description": "Mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan."
+      "title": "DataForge (Dataset Engineering)",
+      "description": "Mengubah data menjadi wawasan cerdas yang mendorong pertumbuhan bisnis"
     },
     "agentforge": {
-      "title": "AgentForge (Pengembangan, Integrasi & Otomatisasi Agen AI)",
-      "description": "Membangun agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas."
+      "title": "AgentForge (AI Agent Development, Integration & Automation)",
+      "description": "Membangun agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas"
     },
     "standout": {
-      "title": "Mengapa Layanan Kami Unggul",
+      "title": "Mengapa Layanan Kami Unggul?",
       "efficiency": {
-        "title": "Peningkatan Efisiensi",
-        "description": "Sederhanakan operasi dan otomatisasi tugas kompleks untuk menghemat waktu dan sumber daya."
+        "title": "Efisiensi Lebih Tinggi",
+        "description": "Sederhanakan operasional dan otomatisasi proses kompleks untuk menghemat waktu serta sumber daya bisnis Anda."
       },
       "decisions": {
         "title": "Keputusan Berbasis Data",
-        "description": "Buka wawasan kuat dari data Anda untuk membuat keputusan bisnis yang lebih cerdas dan lebih cepat."
+        "description": "Manfaatkan insight bernilai dari data Anda untuk pengambilan keputusan bisnis yang lebih cepat dan tepat."
       },
       "competitive": {
         "title": "Keunggulan Kompetitif",
-        "description": "Berinovasi dan mengungguli pesaing dengan memanfaatkan kemajuan terbaru dalam AI."
+        "description": "Berinovasi dan melampaui kompetitor dengan memanfaatkan teknologi AI terkini secara strategis."
       }
     }
   },
@@ -159,50 +159,50 @@
       "title": "ModelForge",
       "subtitle": "Pengembangan Model AI Kustom",
       "hero": {
-        "title": "Mempercepat Inovasi Melalui Model AI Kustom",
-        "description": "ModelForge adalah solusi generasi berikutnya yang mendorong Revolusi AI dengan membangun Platform AI dan Alat AI yang disesuaikan untuk tantangan bisnis nyata. Kami membantu perusahaan berinovasi lebih cepat menggunakan model AI dan pembelajaran mesin kustom.",
-        "button": "Mulai Hari Ini"
+        "title": "Akselerasi Inovasi Bisnis dengan Pengembangan Model AI Kustom",
+        "description": "ModelForge menghadirkan solusi Revolusi AI melalui pengembangan Platform AI dan Aplikasi AI yang disesuaikan dengan kebutuhan bisnis Anda. Kami membantu perusahaan berinovasi lebih cepat dengan teknologi AI dan machine learning yang tepat sasaran.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Menempa Model AI yang Disesuaikan dengan Kebutuhan Bisnis Anda",
-        "description": "ModelForge menempa solusi Kecerdasan Sosial AI, Suite Kreatif AI, dan Intelijen Bisnis (Analisis Data) yang dibangun khusus—dirancang dari awal agar sesuai dengan setiap bisnis—memungkinkan pemahaman audiens yang lebih dalam, pembuatan konten berkualitas tinggi otomatis, dan pengambilan keputusan berbasis data."
+        "title": "Membangun Model AI yang Disesuaikan dengan Kebutuhan Bisnis Anda",
+        "description": "ModelForge mengembangkan solusi Social Intelligence AI, AI Creative Suite, dan Business Intelligence (Analisis Data) yang dibangun secara kustom dari awal sesuai kebutuhan setiap bisnis—memungkinkan pemahaman audiens yang lebih mendalam, otomatisasi pembuatan konten berkualitas tinggi, serta pengambilan keputusan berbasis data."
       },
       "cta": {
-        "title": "Mulai Hari Ini",
-        "description": "ModelForge adalah mitra strategis Anda dalam membangun Platform AI yang dapat diskalakan, aman, dan siap masa depan yang mempercepat transformasi digital"
+        "title": "Mulai Sekarang",
+        "description": "ModelForge adalah mitra strategis Anda dalam membangun platform AI yang siap menghadapi masa depan untuk mempercepat transformasi digital."
       }
     },
     "dataforge": {
       "title": "DataForge",
       "subtitle": "Rekayasa Dataset",
       "hero": {
-        "title": "Kekuatan DataForge",
-        "description": "DataForge mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan analisis data canggih, DataForge membantu bisnis mengungkap tren, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
-        "button": "Mulai Hari Ini"
+        "title": "Jelajahi DataForge",
+        "description": "DataForge mengubah data mentah menjadi wawasan cerdas dan dapat ditindaklanjuti yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan analitik data canggih, DataForge membantu bisnis mengungkap tren, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Bagaimana DataForge Bekerja",
-        "description": "Dengan DataForge, perusahaan dapat memproses dan menganalisis data dari berbagai sumber untuk mengungkap pola tersembunyi, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dibangun untuk memenuhi kebutuhan bisnis yang unik, DataForge memastikan bahwa setiap wawasan praktis, relevan, dan siap mendorong pertumbuhan."
+        "title": "Cara Kerja DataForge",
+        "description": "Dengan DataForge, bisnis dapat memproses dan menganalisis data dari berbagai sumber untuk mengungkap pola, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dirancang untuk memenuhi kebutuhan bisnis yang unik, DataForge memastikan setiap insight bersifat praktis, relevan, dan siap mendorong pertumbuhan."
       },
       "cta": {
-        "title": "Mulai Hari Ini",
-        "description": "Mengubah data mentah menjadi wawasan cerdas yang dapat ditindaklanjuti yang mendorong pertumbuhan bisnis"
+        "title": "Mulai Sekarang",
+        "description": "Mengubah data mentah menjadi wawasan cerdas dan dapat ditindaklanjuti yang mendorong pertumbuhan bisnis."
       }
     },
     "agentforge": {
       "title": "AgentForge",
-      "subtitle": "Pengembangan, Integrasi & Otomatisasi Agen AI",
+      "subtitle": "Pengembangan, Integrasi, & Otomasi Agen AI",
       "hero": {
-        "title": "Tingkatkan Produktivitas Melalui Otomatisasi AI Cerdas",
-        "description": "AgentForge (Pengembangan, Integrasi & Otomatisasi Agen AI) membangun agen AI untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI kustom, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja keseluruhan",
-        "button": "Mulai Hari Ini"
+        "title": "Meningkatkan Produktivitas Melalui Otomasi AI yang Cerdas",
+        "description": "AgentForge (Pengembangan, Integrasi & Otomasi Agen AI) membangun agen AI untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI kustom, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja secara keseluruhan.",
+        "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Buka Efisiensi dengan Agen AI yang Disesuaikan",
-        "description": "Dengan AgentForge, bisnis dapat mengintegrasikan agen AI secara mulus ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap agen disesuaikan untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih cerdas dan keuntungan produktivitas yang terukur."
+        "title": "Meningkatkan Efisiensi dengan Agen AI",
+        "description": "Dengan AgentForge, bisnis dapat mengintegrasikan agen AI secara mulus ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap agen dibuat khusus untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih cerdas dan peningkatan produktivitas."
       },
       "cta": {
-        "title": "Mulai Hari Ini",
+        "title": "Mulai Sekarang",
         "description": "Membangun dan mengintegrasikan agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas."
       }
     }
@@ -211,109 +211,109 @@
     "aura": {
       "hero": {
         "title": "AURA",
-        "subtitle": "Platform Intelijen Sosial AI",
-        "description": "Platform Intelijen Sosial AI. Temukan AURA, Platform AI yang memberdayakan merek dengan kesadaran sosial cerdas menggunakan analisis sentimen multisaluran, teknologi respons otomatis cerdas, dan pemantauan krisis & reputasi waktu nyata.",
+        "subtitle": "Inteligensi Sosial Lebih Cerdas dengan AI",
+        "description": "Platform AI yang membantu brand mendapatkan social intelligence yang lebih cerdas melalui sentiment analysis multisaluran, smart auto-response, serta real-time monitoring untuk reputasi dan krisis media sosial.",
         "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Intelijen Sosial Lebih Cerdas dengan AI",
-        "description": "Didukung oleh Alat AI cerdas, AURA adalah Platform yang dibangun untuk Revolusi AI, memungkinkan pemantauan media sosial waktu nyata, analisis sentimen multisaluran, dan keterlibatan otomatis yang didorong oleh Analisis Data. AURA membantu merek tetap relevan, responsif, dan tepercaya dalam lanskap digital yang bergerak cepat."
+        "title": "Inteligensi Sosial Lebih Cerdas dengan AI",
+        "description": "AURA adalah platform pintar berbasis AI yang dirancang untuk era digital masa kini. Dengan pemantauan media sosial secara real-time, analisis sentimen multisaluran, dan otomatisasi keterlibatan yang didukung oleh data analytics canggih, AURA membantu brand tetap relevan, responsif, dan dipercaya di tengah dinamika dunia digital."
       },
       "why": {
-        "title": "Mengapa AURA",
+        "title": "Kenapa AURA",
         "items": [
           {
             "title": "Wawasan Berbasis Data",
-            "description": "Ubah percakapan sosial menjadi wawasan yang dapat ditindaklanjuti dengan Analisis Data berbasis AI.",
+            "description": "Dapatkan Insight berbasis data dengan cepat dan pintar melalui platform berbasis AI.",
             "icon": "analytics"
           },
           {
-            "title": "Keterlibatan Cerdas",
-            "description": "Respon lebih cepat dan lebih cerdas menggunakan Sistem Respons Otomatis Cerdas yang dibangun untuk strategi AI Pemasaran modern.",
+            "title": "Interaksi Pintar & Cepat",
+            "description": "Tanggapi lebih cepat dan lebih cerdas dengan Smart Auto-Response System yang dirancang khusus untuk strategi pemasaran modern berbasis AI.",
             "icon": "chat"
           },
           {
             "title": "Satu Platform AI Terpadu",
-            "description": "Semua Alat AI penting untuk pemantauan sosial, analisis sentimen, dan manajemen reputasi—di dalam satu Platform AI.",
+            "description": "Semua alat AI penting untuk pemantauan sosial media, analisis sentimen, dan pengelolaan reputasi—tersedia dalam satu platform AI yang lengkap.",
             "icon": "layers"
           }
         ]
       },
       "cta": {
-        "title": "Mulai Hari Ini",
-        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
+        "title": "Mulai Sekarang",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis kamu berkembang"
       }
     },
     "neuralytics": {
       "hero": {
         "title": "Neuralytics",
-        "subtitle": "Platform Intelijen Data AI",
-        "description": "Platform Intelijen Data AI. Neuralytics adalah Platform AI yang mengubah data bisnis menjadi wawasan yang dapat ditindaklanjuti dengan Analisis Data canggih. Dengan Alat AI cerdas, ini memungkinkan perusahaan untuk memproses informasi dengan cepat, akurat, dan efisien.",
+        "subtitle": "Platform AI Data Intelligence",
+        "description": "Platform AI Data Intelligence yang membantu bisnis kamu mengubah data menjadi insight untuk pengambilan keputusan yang lebih cepat dan lebih cerdas. Dengan kemampuan Data Analytics berbasis AI, Neuralytics memungkinkan perusahaan memproses informasi dengan cepat, akurat, dan efisien",
         "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Ubah Data menjadi Wawasan yang Dapat Ditindaklanjuti",
-        "description": "Dengan memanfaatkan Analisis Data canggih dan Alat AI cerdas, Neuralytics menyediakan pemantauan waktu nyata dan dasbor intelijen bisnis intuitif yang membantu bisnis membuat keputusan lebih cepat dan lebih cerdas. AI Pemasaran terintegrasi memastikan bisnis tetap relevan, responsif, dan kompetitif dalam lanskap digital yang serba cepat."
+        "title": "Transformasi Data Menjadi Insight",
+        "description": "Dengan memanfaatkan Data Analytics dan AI Tools yang cerdas, Neuralytics menyediakan pemantauan real-time serta dashboard business intelligence yang intuitif. Solusi Marketing AI terintegrasi membantu perusahaan mengambil keputusan secara lebih cepat, akurat, dan tetap kompetitif dalam lanskap digital yang dinamis"
       },
       "why": {
-        "title": "Mengapa Neuralytics",
+        "title": "Kenapa Neuralytics",
         "items": [
           {
-            "title": "Pemrosesan Data Secepat Kilat",
-            "description": "Proses kumpulan data besar secara instan dengan Analisis Data untuk keputusan yang lebih cerdas.",
+            "title": "Pemrosesan Data Super Cepat",
+            "description": "Proses dataset besar secara instan dengan Data Analytics untuk pengambilan keputusan yang lebih cerdas.",
             "icon": "bolt"
           },
           {
-            "title": "Intelijen Bisnis yang Dapat Ditindaklanjuti",
-            "description": "Dengan dasbor intuitif dan analisis berbasis AI, Neuralytics mengubah data mentah menjadi wawasan bermakna untuk strategi dan peningkatan kinerja.",
+            "title": "Peningkatan Performa Bisnis",
+            "description": "Dengan dashboard intuitif dan analitik berbasis AI, Neuralytics mengubah data mentah menjadi insight bermakna untuk strategi dan peningkatan performa bisnis.",
             "icon": "lightbulb"
           },
           {
-            "title": "Platform AI Komprehensif",
-            "description": "Alat AI penting digabungkan dalam satu Platform AI tunggal, memberikan pengalaman mulus untuk pemantauan, analisis, dan pengambilan keputusan bisnis",
+            "title": "Platform AI Lengkap",
+            "description": "Berbagai alat AI digabung dalam satu platform, menghadirkan pengalaman yang mulus untuk pemantauan, analisis, dan pengambilan keputusan bisnis.",
             "icon": "dataset"
           }
         ]
       },
       "cta": {
-        "title": "Mulai Hari Ini",
-        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
+        "title": "Mulai Sekarang",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis kamu berkembang"
       }
     },
     "vision-craft": {
       "hero": {
         "title": "Vision Craft",
-        "subtitle": "Platform Suite Kreatif AI",
-        "description": "Platform Suite Kreatif AI. Suite Kreatif untuk analisis gambar dan video yang akurat, memungkinkan kontrol kualitas otomatis dan pemantauan cerdas.",
+        "subtitle": "Platform AI Creative Suite",
+        "description": "Creative Suite untuk analisis gambar dan video secara akurat, mendukung otomatisasi kontrol kualitas dan pemantauan cerdas.",
         "button": "Mulai Sekarang"
       },
       "main": {
-        "title": "Alur Kerja Kreatif Didukung oleh AI",
-        "description": "Vision Craft adalah Platform AI yang dirancang untuk Revolusi AI, membantu merek mempermudah pembuatan konten. Dengan memanfaatkan AI Konten Buatan, AI Video, dan AI Foto, Vision Craft menyediakan alat cerdas untuk analisis presisi, kontrol kualitas otomatis, dan alur kerja kreatif yang dioptimalkan. Dengan AI Pemasaran terintegrasi, tim dapat memproduksi konten berkualitas tinggi lebih cepat, lebih cerdas, dan lebih efisien."
+        "title": "Alur Kreatif Berbasis AI",
+        "description": "Vision Craft adalah platform AI yang dirancang untuk revolusi digital, membantu brand menyederhanakan proses pembuatan konten. Dengan memanfaatkan Generated Content AI, AI Video, dan AI Photo, Vision Craft menyediakan alat cerdas untuk analisis tepat, otomatisasi kontrol kualitas, dan optimalisasi alur kerja kreatif."
       },
       "why": {
-        "title": "Mengapa Vision Craft",
+        "title": "Kenapa Vision Craft",
         "items": [
           {
-            "title": "Akurasi Konten Berbasis AI",
-            "description": "Pastikan presisi tak tertandingi dalam analisis gambar dan video, mengurangi kesalahan dan meningkatkan kontrol kualitas.",
+            "title": "Konten Akurat Berbasis AI",
+            "description": "Pastikan analisis gambar dan video dengan presisi tinggi, meminimalkan kesalahan, dan meningkatkan kontrol kualitas.",
             "icon": "check_circle"
           },
           {
             "title": "Pembuatan Konten Lebih Cerdas",
-            "description": "Manfaatkan AI Konten Buatan, AI Video, dan AI Foto untuk mempermudah alur kerja kreatif dan memproduksi konten berkualitas tinggi lebih cepat.",
+            "description": "Manfaatkan Generated Content AI, AI Video, dan AI Photo untuk menyederhanakan alur kerja kreatif dan menghasilkan konten berkualitas tinggi lebih cepat.",
             "icon": "auto_awesome"
           },
           {
-            "title": "Platform AI Canggih",
-            "description": "Semua Alat AI penting tersedia dalam satu Platform AI tunggal, mendukung pemantauan, analisis, dan produksi kreatif yang efisien.",
+            "title": "Platform AI Terpadu",
+            "description": "Semua alat AI penting tersedia dalam satu platform, mendukung pemantauan, analisis, dan produksi konten yang efisien.",
             "icon": "integration_instructions"
           }
         ]
       },
       "cta": {
-        "title": "Mulai Hari Ini",
-        "description": "Temukan bagaimana platform AI kami membantu bisnis Anda berkembang untuk masa depan dengan solusi AI cerdas"
+        "title": "Mulai Sekarang",
+        "description": "Temukan bagaimana platform AI kami membantu bisnis kamu berkembang"
       }
     }
   }
