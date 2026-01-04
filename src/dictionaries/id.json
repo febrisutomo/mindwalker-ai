@@ -212,20 +212,20 @@
     "aura": {
       "hero": {
         "title": "AURA",
-        "subtitle": "Inteligensi Sosial Lebih Cerdas dengan AI",
-        "description": "Platform AI yang membantu brand mendapatkan social intelligence yang lebih cerdas melalui sentiment analysis multisaluran, smart auto-response, serta real-time monitoring untuk reputasi dan krisis media sosial.",
+        "subtitle": "AI Social Intelligence Platform",
+        "description": "Platform AI yang membantu brand mendapatkan social intelligence yang lebih cerdas melalui Multichannel Sentiment Analysis, Smart Auto-Response System, serta Crisis & Reputation Monitoring untuk reputasi brand pada media sosial.",
         "button": "Mulai Sekarang"
       },
       "main": {
         "title": "Inteligensi Sosial Lebih Cerdas dengan AI",
-        "description": "AURA adalah platform pintar berbasis AI yang dirancang untuk era digital masa kini. Dengan pemantauan media sosial secara real-time, analisis sentimen multisaluran, dan otomatisasi keterlibatan yang didukung oleh data analytics canggih, AURA membantu brand tetap relevan, responsif, dan dipercaya di tengah dinamika dunia digital."
+        "description": "AURA adalah platform pintar berbasis AI yang dirancang untuk era digital terkini. Dengan pemantauan media sosial secara real-time, Multichannel Sentiment Analysis, dan sistem otomatisasi yang didukung oleh data analytics terupdate, AURA membantu brand tetap relevan, responsif, dan dipercaya di tengah dinamika dunia digital."
       },
       "why": {
         "title": "Kenapa AURA",
         "items": [
           {
-            "title": "Wawasan Berbasis Data",
-            "description": "Dapatkan Insight berbasis data dengan cepat dan pintar melalui platform berbasis AI.",
+            "title": "Insight Berbasis Data",
+            "description": "Dapatkan Insight berbasis data dengan efektif dan efisien melalui platform berbasis AI.",
             "icon": "analytics"
           },
           {
@@ -254,7 +254,7 @@
       },
       "main": {
         "title": "Transformasi Data Menjadi Insight",
-        "description": "Dengan memanfaatkan Data Analytics dan AI Tools yang cerdas, Neuralytics menyediakan pemantauan real-time serta dashboard business intelligence yang intuitif. Solusi Marketing AI terintegrasi membantu perusahaan mengambil keputusan secara lebih cepat, akurat, dan tetap kompetitif dalam lanskap digital yang dinamis"
+        "description": "Dengan memanfaatkan Data Analytics dan AI Tools, Neuralytics menyediakan pemantauan real-time serta dashboard business intelligence yang intuitif. Solusi AI terintegrasi membantu perusahaan mengambil keputusan secara lebih cepat, akurat, dan tetap kompetitif dalam lanskap digital yang dinamis"
       },
       "why": {
         "title": "Kenapa Neuralytics",
@@ -290,24 +290,24 @@
       },
       "main": {
         "title": "Alur Kreatif Berbasis AI",
-        "description": "Vision Craft adalah platform AI yang dirancang untuk revolusi digital, membantu brand menyederhanakan proses pembuatan konten. Dengan memanfaatkan Generated Content AI, AI Video, dan AI Photo, Vision Craft menyediakan alat cerdas untuk analisis tepat, otomatisasi kontrol kualitas, dan optimalisasi alur kerja kreatif."
+        "description": "Vision Craft adalah platform AI yang dirancang untuk revolusi digital, membantu brand menyederhanakan proses pembuatan konten. Dengan memanfaatkan Generated Content AI, AI Video, dan AI Image, Vision Craft menyediakan tools untuk analisis dan otomatisasi kontrol kualitas, serta optimalisasi alur kerja kreatif."
       },
       "why": {
         "title": "Kenapa Vision Craft",
         "items": [
           {
             "title": "Konten Akurat Berbasis AI",
-            "description": "Pastikan analisis gambar dan video dengan presisi tinggi, meminimalkan kesalahan, dan meningkatkan kontrol kualitas.",
+            "description": "Memastikan analisis gambar dan video dengan akurasi tinggi, meminimalkan kesalahan, dan meningkatkan kontrol kualitas.",
             "icon": "check_circle"
           },
           {
             "title": "Pembuatan Konten Lebih Cerdas",
-            "description": "Manfaatkan Generated Content AI, AI Video, dan AI Photo untuk menyederhanakan alur kerja kreatif dan menghasilkan konten berkualitas tinggi lebih cepat.",
+            "description": "Manfaatkan Generated Content AI, AI Video, dan AI Image untuk menyederhanakan alur kerja kreatif dan menghasilkan konten berkualitas tinggi lebih cepat.",
             "icon": "auto_awesome"
           },
           {
             "title": "Platform AI Terpadu",
-            "description": "Semua alat AI penting tersedia dalam satu platform, mendukung pemantauan, analisis, dan produksi konten yang efisien.",
+            "description": "Berbagai AI Tools digabung dalam satu platform, menghadirkan pengalaman yang baru untuk pemantauan, analisis, dan pengambilan keputusan bisnis.",
             "icon": "integration_instructions"
           }
         ]
