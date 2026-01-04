@@ -10,8 +10,8 @@
   },
   "hero": {
     "titlePrefix": "Membangun Masa Depan Digital Melalui",
-    "typingTexts": ["Applied AI", "Sistem Cerdas AI", "Bisnis Berbasis AI"],
-    "subtitle": "Mentransformasikan Industri melalui Riset AI Mutakhir, Solusi Inovatif, dan Kecerdasan Terapan untuk Mendorong Kemajuan",
+    "typingTexts": ["Applied AI", "Sistem AI", "AI untuk Bisnis"],
+    "subtitle": "Mentransformasikan Industri melalui Riset AI Terupdate, Solusi Inovatif, dan Kecerdasan Terapan untuk Mendorong Kemajuan",
     "getStarted": "Mulai Transformasi",
     "learnMore": "Pelajari Lebih Lanjut"
   },
@@ -20,20 +20,20 @@
     "description": "Kami tidak hanya mengembangkan solusi AI – kami merancang masa depan sistem cerdas yang terintegrasi sempurna dengan bisnis Anda untuk meningkatkan efisiensi, dan mendorong inovasi",
     "mission": {
       "title": "Misi Kami",
-      "description": "Mengoptimalkan Kecerdasan Buatan untuk Memecahkan Tantangan Global dan Mendorong Kemajuan Manusia melalui Riset Terobosan dan Solusi Terapan"
+      "description": "Mengoptimalkan kecerdasan buatan untuk memecahkan tantangan global dan mendorong kemajuan ekosistem digital melalui riset dan solusi terkini."
     },
     "vision": {
       "title": "Visi Kami",
-      "description": "Menciptakan Masa Depan di Mana Sistem Cerdas Terintegrasi Sempurna dengan Masyarakat, Meningkatkan Kualitas Hidup, dan Membuka Potensi Tak Terbatas bagi Semua."
+      "description": "Menciptakan masa depan di mana Sistem AI terintegrasi Sempurna dengan ekosistem sosial, meningkatkan efesiensi, dan membuka potensi di setiap lini bisnis."
     },
     "values": {
       "title": "Nilai Kami",
-      "description": "Inovasi, Integritas, Kolaborasi, Keunggulan, dan Tanggung Jawab. Prinsip-prinsip ini mengarahkan langkah kami dan membentuk budaya kami untuk menciptakan masa depan yang lebih baik."
+      "description": "Inovasi, Integritas, Kolaborasi, Keunggulan, dan Tanggung Jawab. Prinsip-prinsip ini mengarahkan dan membentuk budaya kami untuk menciptakan masa depan yang lebih baik."
     }
   },
   "products": {
     "title": "Produk AI Kami",
-    "description": "Solusi AI terdepan yang dirancang untuk mentransformasi industri Anda dengan teknologi mutakhir dan performa unggul",
+    "description": "Solusi AI terdepan yang dirancang untuk mentransformasikan industri Anda dengan performa dan teknologi terkini",
     "aura": {
       "title": "AURA",
       "subtitle": "Platform Kecerdasan Sosial AI",
@@ -43,20 +43,20 @@
     "neuralytics": {
       "title": "Neuralytics",
       "subtitle": "Platform Kecerdasan Data AI",
-      "description": "Insight data berbasis Artificial Intelligence yang mengubah data kompleks menjadi keputusan bisnis yang lebih cerdas, cepat, dan terukur melalui pemrosesan real-time dan dashboard yang intuitif.",
+      "description": "Insight data berbasis Artificial Intelligence yang mengubah data kompleks menjadi keputusan bisnis yang lebih tepat dan terukur melalui pemrosesan cepat dan dashboard yang intuitif.",
       "tags": ["Analisis Data", "Intelijen Bisnis"]
     },
     "vision-craft": {
       "title": "Vision Craft",
       "subtitle": "Platform Suite Kreatif AI",
-      "description": "Analisis gambar dan video secara otomatis, pastikan kualitas terbaik, dan buat keputusan lebih cepat dengan teknologi AI yang pintar dan mudah digunakan",
+      "description": "AI Creative Suite yang menghadirkan analisis gambar dan video berakurasi tinggi untuk memastikan kualitas secara otomatis dan pemantauan yang terukur",
       "tags": ["Konten Buatan AI", "Pembuatan Konten"]
     },
     "learnMore": "Pelajari Lebih Lanjut"
   },
   "services": {
     "title": "Layanan AI Kami",
-    "description": "Mengubah industri dengan solusi AI cerdas yang mendorong pertumbuhan, meningkatkan produktivitas, dan membuka peluang baru bagi setiap bisnis",
+    "description": "Mengubah industri dengan solusi AI cerdas yang mendorong pertumbuhan, meningkatkan produktivitas, dan membuka peluang baru di setiap lini bisnis",
     "learnMore": "Pelajari Lebih Lanjut",
     "modelforge": {
       "title": "ModelForge (Custom AI Model Development)",
@@ -64,11 +64,11 @@
     },
     "dataforge": {
       "title": "DataForge (Dataset Engineering)",
-      "description": "Mengubah data menjadi wawasan cerdas yang mendorong pertumbuhan bisnis"
+      "description": "Mengubah data menjadi insight yang mendorong pertumbuhan bisnis"
     },
     "agentforge": {
       "title": "AgentForge (AI Agent Development, Integration & Automation)",
-      "description": "Membangun agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas"
+      "description": "Membangun AI Agent untuk mengotomatisasi proses dan meningkatkan produktivitas"
     },
     "standout": {
       "title": "Mengapa Layanan Kami Unggul?",
@@ -78,11 +78,11 @@
       },
       "decisions": {
         "title": "Keputusan Berbasis Data",
-        "description": "Manfaatkan insight bernilai dari data Anda untuk pengambilan keputusan bisnis yang lebih cepat dan tepat."
+        "description": "Manfaatkan insight dari data Anda untuk pengambilan keputusan bisnis yang lebih cepat dan tepat."
       },
       "competitive": {
         "title": "Keunggulan Kompetitif",
-        "description": "Berinovasi dan melampaui kompetitor dengan memanfaatkan teknologi AI terkini secara strategis."
+        "description": "Mendorong Inovasi dan meningkatkan daya saing dengan memanfaatkan teknologi AI terkini secara strategis."
       }
     }
   },
@@ -91,7 +91,7 @@
   },
   "contact": {
     "title": "Siap untuk Transformasikan Bisnis Anda?",
-    "subtitle": "Temukan bagaimana solusi AI kami bisa mentrasformasikan bisnis Anda. Konsultasikan dengan tim ahli kami hari ini.",
+    "subtitle": "Temukan bagaimana solusi AI kami bisa mentrasformasikan bisnis Anda. Konsultasikan dengan tim berpengalaman kami sekarang.",
     "form": {
       "title": "Kirim Pesan",
       "firstName": "Nama Depan",
@@ -112,13 +112,13 @@
     },
     "getStarted": {
       "title": "Mulai Hari Ini",
-      "description": "Siap melihat bagaimana AI dapat mengubah bisnis Anda? Jadwalkan konsultasi gratis dengan para ahli kami.",
+      "description": "Siap melihat bagaimana AI dapat mengubah bisnis Anda? Jadwalkan konsultasi gratis dengan tim berpengalaman kami.",
       "button": "Jadwalkan Konsultasi Gratis",
       "emailText": "Atau email kami langsung di:"
     },
     "newsletter": {
       "title": "Ikuti Perkembangan",
-      "description": "Langganan newsletter kami untuk mendapatkan informasi terbaru seputar inovasi AI, update perusahaan, dan wawasan eksklusif.",
+      "description": "Berlangganan newsletter kami untuk mendapatkan informasi terbaru seputar inovasi AI, update perusahaan, dan insight eksklusif.",
       "placeholder": "Masukkan email Anda",
       "button": "Berlangganan",
       "subscribing": "Berlangganan...",
