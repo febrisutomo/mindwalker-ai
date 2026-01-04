@@ -15,7 +15,6 @@ export const blogPosts: BlogPost[] = [
     title: "Revolusi AI 2025: Bagaimana Kecerdasan Buatan Mengubah Lanskap Bisnis",
     excerpt: "Menelusuri tren utama AI yang akan mendominasi tahun 2025 dan dampaknya terhadap berbagai sektor industri.",
     content: `
-      <h2>Pengantar</h2>
       <p>Tahun 2025 menandai titik balik penting dalam evolusi kecerdasan buatan (AI). Tidak lagi sekadar konsep futuristik, AI kini telah menjadi tulang punggung operasi bisnis di berbagai sektor. Dari otomatisasi cerdas hingga analitik prediktif yang canggih, perusahaan yang mengadopsi teknologi ini mengalami lonjakan efisiensi dan inovasi yang belum pernah terjadi sebelumnya.</p>
       
       <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1000" alt="Robot AI masa depan" class="w-full rounded-xl my-8 shadow-lg" />
@@ -35,8 +34,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Dampak pada Industri</h2>
       <p>Sektor keuangan menggunakan AI untuk mendeteksi penipuan dengan akurasi mendekati sempurna, sementara di bidang kesehatan, AI membantu diagnosis dini penyakit dengan presisi yang melampaui kemampuan manusia. Di sektor ritel, pengalaman belanja yang dipersonalisasi bukan lagi keistimewaan, melainkan standar.</p>
       
-      <h2>Kesimpulan</h2>
-      <p>Revolusi AI 2025 bukan tentang menggantikan manusia, melainkan memberdayakan kita untuk mencapai lebih banyak. Perusahaan yang berani berinovasi dan mengintegrasikan AI ke dalam strategi inti mereka akan memimpin pasar di dekade mendatang.</p>
+      <p>Revolusi AI 2025 bukan tentang menggantikan manusia, melainkan memberdayakan kita untuk mencapai lebih banyak. Perusahaan yang berani berinovasi dan mengintegrasikan AI ke dalam strategi inti mereka akan memimpin pasar di dekade mendatang. Pelajari lebih lanjut tentang solusi AI kami di <a href="https://mindwalker.ai">Mindwalker AI</a>.</p>
     `,
     date: "2025-01-15",
     author: "Mindwalker AI",
@@ -48,7 +46,6 @@ export const blogPosts: BlogPost[] = [
     title: "Masa Depan Layanan Pelanggan: Sinergi Manusia dan AI Agent",
     excerpt: "Bagaimana AI Agent mengubah cara brand berinteraksi dengan pelanggan, menciptakan pengalaman yang personal dan responsif 24/7.",
     content: `
-      <h2>Era Baru Interaksi Pelanggan</h2>
       <p>Layanan pelanggan tradisional sering kali terkendala oleh keterbatasan waktu dan sumber daya manusia. Namun, kehadiran AI Agent mengubah segalanya. Bukan sebagai pengganti, melainkan sebagai mitra yang menangani pertanyaan rutin, membebaskan agen manusia untuk menangani masalah yang lebih kompleks dan emosional.</p>
       
       <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000" alt="Tim Customer Service" class="w-full rounded-xl my-8 shadow-lg" />
@@ -68,8 +65,7 @@ export const blogPosts: BlogPost[] = [
       
       <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1000" alt="Shopping online" class="w-full rounded-xl my-8 shadow-lg" />
 
-      <h2>Penutup</h2>
-      <p>Masa depan layanan pelanggan adalah tentang kolaborasi, bukan persaingan. Mengintegrasikan AI Agent adalah langkah strategis untuk membangun loyalitas pelanggan yang lebih kuat di era digital.</p>
+      <p>Masa depan layanan pelanggan adalah tentang kolaborasi, bukan persaingan. Mengintegrasikan AI Agent adalah langkah strategis untuk membangun loyalitas pelanggan yang lebih kuat di era digital. Temukan bagaimana <a href="https://mindwalker.ai">Mindwalker AI</a> dapat membantu transformasi layanan Anda.</p>
     `,
     date: "2025-02-02",
     author: "Mindwalker AI",
@@ -81,7 +77,6 @@ export const blogPosts: BlogPost[] = [
     title: "Etika AI dalam Pengembangan Produk: Membangun Teknologi yang Bertanggung Jawab",
     excerpt: "Pentingnya mempertimbangkan aspek etika, privasi, dan bias dalam setiap tahap pengembangan solusi berbasis AI.",
     content: `
-      <h2>Mengapa Etika AI Itu Penting?</h2>
       <p>Kecerdasan Buatan memiliki kekuatan yang luar biasa, namun kekuatan besar menuntut tanggung jawab yang besar pula. Dalam pengembangan produk AI, etika bukan sekadar pelengkap, melainkan fondasi. Mengabaikan aspek ini dapat berujung pada bias algoritma, pelanggaran privasi, dan hilangnya kepercayaan publik.</p>
       
       <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1000" alt="Cyber security link" class="w-full rounded-xl my-8 shadow-lg" />
@@ -101,8 +96,7 @@ export const blogPosts: BlogPost[] = [
       
       <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=1000" alt="Meeting discussion" class="w-full rounded-xl my-8 shadow-lg" />
 
-      <h2>Kesimpulan</h2>
-      <p>Membangun AI yang etis bukan hanya tentang kepatuhan hukum, tetapi tentang menciptakan teknologi yang benar-benar bermanfaat bagi kemanusiaan. Produk yang dibangun di atas fondasi kepercayaan akan bertahan dan berkembang dalam jangka panjang.</p>
+      <p>Membangun AI yang etis bukan hanya tentang kepatuhan hukum, tetapi tentang menciptakan teknologi yang benar-benar bermanfaat bagi kemanusiaan. Produk yang dibangun di atas fondasi kepercayaan akan bertahan dan berkembang dalam jangka panjang. Komitmen kami terhadap etika dapat dilihat di <a href="https://mindwalker.ai">Mindwalker AI</a>.</p>
     `,
     date: "2025-02-20",
     author: "Mindwalker AI",
