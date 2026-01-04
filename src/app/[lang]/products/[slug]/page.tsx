@@ -31,7 +31,15 @@ export default async function ProductPage({
             {/* HERO SECTION - Brand Colors (Blue/Dark) */}
             <section className="relative px-6 sm:px-10 lg:px-20 pt-24 pb-24 lg:pt-36 lg:pb-36 overflow-hidden">
                 {/* Dynamic Background - Blue/Dark Theme */}
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950 to-[#0B0F19] z-0 animate-gradient-xy"></div>
+                <div className="absolute inset-0 z-0">
+                    <img
+                        src={(productDetail.hero as any).image}
+                        alt={productDetail.hero.title}
+                        className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-blue-950/60 to-[#0B0F19]/80 mix-blend-multiply"></div>
+                    <div className="absolute inset-0 bg-black/20"></div>
+                </div>
                 <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(59,130,246,0.1)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%,100%_100%] animate-shine opacity-30"></div>
                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-125 contrast-150 mix-blend-overlay"></div>
 
@@ -90,16 +98,13 @@ export default async function ProductPage({
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="order-2 lg:order-1 relative">
-                            {/* Illustration Placeholder */}
-                            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-blue-900 to-[#0B0F19] overflow-hidden shadow-2xl relative border border-blue-900/50">
-                                <div className="absolute inset-0 bg-white/5 backdrop-blur-[2px] flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-blue-200/50 !text-9xl drop-shadow-lg animate-pulse">
-                                        {allProducts.find(p => p.key === slug)?.icon}
-                                    </span>
-                                </div>
-                                {/* Decorative Elements */}
-                                <div className="absolute top-10 right-10 w-20 h-20 bg-blue-500/20 rounded-full blur-2xl"></div>
-                                <div className="absolute bottom-10 left-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
+                            {/* Image from Dictionary */}
+                            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl relative border border-gray-200 dark:border-gray-800 group">
+                                <img
+                                    src={(productDetail.main as any).image}
+                                    alt={productDetail.main.title}
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                />
                             </div>
                         </div>
                         <div className="order-1 lg:order-2">

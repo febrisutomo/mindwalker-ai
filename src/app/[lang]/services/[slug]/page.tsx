@@ -34,12 +34,18 @@ export default async function ServicePage({
             {/* HERO SECTION - ENHANCED */}
             <section className="relative px-6 sm:px-10 lg:px-20 pt-24 pb-24 lg:pt-36 lg:pb-36 overflow-hidden">
                 {/* Dynamic Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-[#101622] z-0"></div>
-                <div className="absolute inset-0 hero-animated-bg opacity-30 pointer-events-none mix-blend-overlay"></div>
-                <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-100 contrast-150"></div>
+                <div className="absolute inset-0 z-0">
+                    <img
+                        src={(serviceDetail.hero as any).image}
+                        alt={serviceDetail.hero.title}
+                        className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 to-[#101622]/80 mix-blend-multiply"></div>
+                    <div className="absolute inset-0 bg-black/20"></div>
+                </div>
 
                 <div className="container mx-auto relative z-10 text-center">
-                    <span className="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-blue-200 text-sm font-medium mb-6 backdrop-blur-sm">
+                    <span className="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-blue-100 text-sm font-medium mb-6 backdrop-blur-sm shadow-lg">
                         {dictionary.services_detail?.[slug as keyof typeof dictionary.services_detail]?.subtitle}
                     </span>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-white mb-8 leading-tight tracking-tighter drop-shadow-lg">
@@ -70,15 +76,12 @@ export default async function ServicePage({
                             </p>
                         </div>
                         <div className="relative order-2 lg:order-1 h-full min-h-[400px]">
-                            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-900 to-[#1e293b] overflow-hidden shadow-2xl border border-blue-900/30">
-                                <div className="absolute inset-0 bg-white/5 backdrop-blur-sm flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-blue-200/50 !text-9xl drop-shadow-lg animate-pulse">
-                                        {allServices.find(s => s.key === slug)?.icon}
-                                    </span>
-                                </div>
-                                {/* Decorative Elements */}
-                                <div className="absolute top-10 right-10 w-20 h-20 bg-blue-500/20 rounded-full blur-2xl"></div>
-                                <div className="absolute bottom-10 left-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
+                            <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-800 group">
+                                <img
+                                    src={(serviceDetail.main as any).image}
+                                    alt={serviceDetail.main.title}
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                />
                             </div>
                         </div>
                     </div>

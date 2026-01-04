@@ -47,5 +47,5 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|logos/|mindwalker-logo.png|videos/).*)'],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|logos/|mindwalker-logo.png|videos/|images/).*)'],
 }

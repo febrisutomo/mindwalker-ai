@@ -164,9 +164,11 @@
       "hero": {
         "title": "Accelerating Innovation Through Custom AI Models",
         "description": "ModelForge is a next-generation solution driving the AI Revolution by building tailored AI Platforms and AI Tools designed for real business challenges. We help companies innovate faster using custom AI and machine learning models.",
-        "button": "Get Started Today"
+        "button": "Get Started Today",
+        "image": "/images/services/model-01.jpeg"
       },
       "main": {
+        "image": "/images/services/model-02.jpeg",
         "title": "Forging AI Models Tailored to Your Business Needs",
         "description": "ModelForge forges custom-built Social Intelligence AI, AI Creative Suite, and Business Intelligence (Data Analytics) solutions—designed from the ground up to fit each business—enabling deeper audience understanding, automated high-quality content creation, and data-driven decision-making."
       },
@@ -181,9 +183,11 @@
       "hero": {
         "title": "The Power of DataForge",
         "description": "DataForge turns raw data into intelligent, actionable insights that drive business growth and support data-driven decision-making. By leveraging advanced data analytics, DataForge helps businesses uncover trends, optimize strategies, and improve operational efficiency.",
-        "button": "Get Started Today"
+        "button": "Get Started Today",
+        "image": "/images/services/data-01.jpg"
       },
       "main": {
+        "image": "/images/services/data-02.jpg",
         "title": "How DataForge Works",
         "description": "With DataForge, companies can process and analyze data from multiple sources to uncover hidden patterns, optimize strategies, and enhance operational efficiency. Built to meet unique business needs, DataForge ensures that every insight is practical, relevant, and ready to fuel growth."
       },
@@ -198,9 +202,11 @@
       "hero": {
         "title": "Boost Productivity Through Intelligent AI Automation",
         "description": "AgentForge (AI Agent Development, Integration & Automation) builds AI agents to automate business processes and boost productivity. By designing custom AI solutions, AgentForge helps companies streamline workflows, reduce repetitive tasks, and optimize overall performance",
-        "button": "Get Started Today"
+        "button": "Get Started Today",
+        "image": "/images/services/agent-01.jpg"
       },
       "main": {
+        "image": "/images/services/agent-02.jpeg",
         "title": "Unlock Efficiency with Tailored AI Agents",
         "description": "With AgentForge, businesses can integrate AI agents seamlessly into their operations to enhance efficiency and accelerate decision-making. Each agent is tailored to meet specific business needs, ensuring smarter automation and measurable productivity gains."
       },
@@ -216,9 +222,11 @@
         "title": "AURA",
         "subtitle": "AI Social Intelligence Platform",
         "description": "Discover AURA, an AI Platform empowering brands with intelligent social awareness using multichannel sentiment analysis, smart auto-response technology, and real-time crisis & reputation monitoring.",
-        "button": "Get Started"
+        "button": "Get Started",
+        "image": "/images/products/aura-01.jpg"
       },
       "main": {
+        "image": "/images/products/aura-02.jpg",
         "title": "Smarter Social Intelligence with AI",
         "description": "Powered by intelligent AI Tools, AURA is an Platform built for the AI Revolution, enabling real-time social media monitoring, multichannel sentiment analysis, and automated engagement driven by Data Analytics. AURA helps brands stay relevant, responsive, and trusted in a fast-moving digital landscape."
       },
@@ -252,9 +260,11 @@
         "title": "Neuralytics",
         "subtitle": "AI Data Intelligence Platform",
         "description": "Neuralytics is an AI Platform that transforms business data into actionable insights with advanced Data Analytics. With intelligent AI Tools, it enables companies to process information quickly, accurately, and efficiently.",
-        "button": "Get Started"
+        "button": "Get Started",
+        "image": "/images/products/neural-01.jpeg"
       },
       "main": {
+        "image": "/images/products/neural-02.jpg",
         "title": "Transform Data into Actionable Insights",
         "description": "By leveraging advanced Data Analytics and intelligent AI Tools, Neuralytics provides real-time monitoring and intuitive business intelligence dashboards that help businesses make faster, smarter decisions. Integrated Marketing AI ensures businesses stay relevant, responsive, and competitive in a fast-paced digital landscape."
       },
@@ -288,9 +298,11 @@
         "title": "Vision Craft",
         "subtitle": "AI Creative Suite Platform",
         "description": "Creative Suite for accurate image and video analysis, enabling automated quality control and intelligent monitoring.",
-        "button": "Get Started"
+        "button": "Get Started",
+        "image": "/images/products/vision-01.jpg"
       },
       "main": {
+        "image": "/images/products/vision-02.jpg",
         "title": "Creative Workflows Powered by AI",
         "description": "Vision Craft is an AI Platform designed for the AI Revolution, helping brands streamline content creation. By leveraging Generated Content AI, AI Video, and AI Photo, Vision Craft provides intelligent tools for precise analysis, automated quality control, and optimized creative workflows. With integrated Marketing AI, teams can produce high-quality content faster, smarter, and more efficiently."
       },

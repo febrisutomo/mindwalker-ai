@@ -164,9 +164,11 @@
       "hero": {
         "title": "Akselerasi Inovasi Bisnis dengan Pengembangan Model AI Kustom",
         "description": "ModelForge menghadirkan solusi AI melalui pengembangan Platform AI yang disesuaikan dengan kebutuhan bisnis Anda. Kami membantu perusahaan berinovasi lebih cepat dengan teknologi AI yang relevan.",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/services/model-01.jpeg"
       },
       "main": {
+        "image": "/images/services/model-02.jpeg",
         "title": "Membangun Model AI yang Disesuaikan dengan Kebutuhan Bisnis Anda",
         "description": "ModelForge mengembangkan platform AI yang dibangun secara custom sesuai kebutuhan setiap bisnis, memungkinkan pemahaman brand yang lebih mendalam, otomatisasi pembuatan konten berkualitas tinggi, serta pengambilan keputusan berbasis data."
       },
@@ -181,9 +183,11 @@
       "hero": {
         "title": "Jelajahi DataForge",
         "description": "DataForge mengubah data mentah menjadi insight yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan data analytics, DataForge membantu bisnis memastikan reputasi brand, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/services/data-01.jpg"
       },
       "main": {
+        "image": "/images/services/data-02.jpg",
         "title": "Cara Kerja DataForge",
         "description": "Dengan DataForge, bisnis dapat memproses dan menganalisis data dari berbagai sumber untuk menghasilkan pola, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dirancang untuk memenuhi kebutuhan bisnis, DataForge memastikan setiap insight bersifat praktis, relevan, dan siap mendorong pertumbuhan."
       },
@@ -198,9 +202,11 @@
       "hero": {
         "title": "Meningkatkan Produktivitas Melalui Otomasi AI yang Cerdas",
         "description": "AgentForge membangun AI Agent untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja secara keseluruhan.",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/services/agent-01.jpg"
       },
       "main": {
+        "image": "/images/services/agent-02.jpeg",
         "title": "Meningkatkan Efisiensi dengan Agen AI",
         "description": "Dengan AgentForge, bisnis dapat mengintegrasikan AI Agent ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap AI Agent dibuat khusus untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih efisien dan peningkatan produktivitas."
       },
@@ -216,9 +222,11 @@
         "title": "AURA",
         "subtitle": "AI Social Intelligence Platform",
         "description": "Platform AI yang membantu brand mendapatkan social intelligence yang lebih cerdas melalui Multichannel Sentiment Analysis, Smart Auto-Response System, serta Crisis & Reputation Monitoring untuk reputasi brand pada media sosial.",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/products/aura-01.jpg"
       },
       "main": {
+        "image": "/images/products/aura-02.jpg",
         "title": "Inteligensi Sosial Lebih Cerdas dengan AI",
         "description": "AURA adalah platform pintar berbasis AI yang dirancang untuk era digital terkini. Dengan pemantauan media sosial secara real-time, Multichannel Sentiment Analysis, dan sistem otomatisasi yang didukung oleh data analytics terupdate, AURA membantu brand tetap relevan, responsif, dan dipercaya di tengah dinamika dunia digital."
       },
@@ -252,9 +260,11 @@
         "title": "Neuralytics",
         "subtitle": "Platform AI Data Intelligence",
         "description": "Platform AI Data Intelligence yang membantu bisnis kamu mengubah data menjadi insight untuk pengambilan keputusan yang lebih cepat dan lebih cerdas. Dengan kemampuan Data Analytics berbasis AI, Neuralytics memungkinkan perusahaan memproses informasi dengan cepat, akurat, dan efisien",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/products/neural-01.jpeg"
       },
       "main": {
+        "image": "/images/products/neural-02.jpg",
         "title": "Transformasi Data Menjadi Insight",
         "description": "Dengan memanfaatkan Data Analytics dan AI Tools, Neuralytics menyediakan pemantauan real-time serta dashboard business intelligence yang intuitif. Solusi AI terintegrasi membantu perusahaan mengambil keputusan secara lebih cepat, akurat, dan tetap kompetitif dalam lanskap digital yang dinamis"
       },
@@ -288,9 +298,11 @@
         "title": "Vision Craft",
         "subtitle": "Platform AI Creative Suite",
         "description": "Creative Suite untuk analisis gambar dan video secara akurat, mendukung otomatisasi kontrol kualitas dan pemantauan cerdas.",
-        "button": "Mulai Sekarang"
+        "button": "Mulai Sekarang",
+        "image": "/images/products/vision-01.jpg"
       },
       "main": {
+        "image": "/images/products/vision-02.jpg",
         "title": "Alur Kreatif Berbasis AI",
         "description": "Vision Craft adalah platform AI yang dirancang untuk revolusi digital, membantu brand menyederhanakan proses pembuatan konten. Dengan memanfaatkan Generated Content AI, AI Video, dan AI Image, Vision Craft menyediakan tools untuk analisis dan otomatisasi kontrol kualitas, serta optimalisasi alur kerja kreatif."
       },
