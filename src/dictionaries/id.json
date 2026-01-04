@@ -52,12 +52,14 @@
       "description": "AI Creative Suite yang menghadirkan analisis gambar dan video berakurasi tinggi untuk memastikan kualitas secara otomatis dan pemantauan yang terukur",
       "tags": ["Konten Buatan AI", "Pembuatan Konten"]
     },
-    "learnMore": "Pelajari Lebih Lanjut"
+    "learnMore": "Pelajari Lebih Lanjut",
+    "exploreOther": "Jelajahi Produk Lainnya"
   },
   "services": {
     "title": "Layanan AI Kami",
     "description": "Mengubah industri dengan solusi AI cerdas yang mendorong pertumbuhan, meningkatkan produktivitas, dan membuka peluang baru di setiap lini bisnis",
     "learnMore": "Pelajari Lebih Lanjut",
+    "exploreOther": "Jelajahi Layanan Lainnya",
     "modelforge": {
       "title": "ModelForge (Custom AI Model Development)",
       "description": "Membangun model AI & Machine Learning yang disesuaikan untuk tantangan dan kebutuhan unik Anda"

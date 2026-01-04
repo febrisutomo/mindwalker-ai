@@ -52,12 +52,14 @@
       "description": "AI Creative Suite for unparalleled accuracy in image and video analysis, enabling automated quality control and intelligent monitoring.",
       "tags": ["AI Generated Content", "Content Creation"]
     },
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "exploreOther": "Explore Other Products"
   },
   "services": {
     "title": "Our AI Services",
     "description": "Empowering businesses through comprehensive artificial intelligence services that drive innovation and efficiency across all industries.",
     "learnMore": "Learn More",
+    "exploreOther": "Explore Other Services",
     "modelforge": {
       "title": "ModelForge (Custom AI Model Development)",
       "description": "Building tailored AI & machine learning models for your unique challenges and requirements."
