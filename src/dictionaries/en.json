@@ -5,6 +5,7 @@
     "products": "Products",
     "services": "Services",
     "contact": "Contact",
+    "blog": "Blog",
     "bookDemo": "Book a Demo"
   },
   "hero": {
@@ -316,5 +317,14 @@
         "description": "Discover how our AI platform helps your business evolve for the future with intelligent AI solutions"
       }
     }
+  },
+  "blog": {
+    "title": "Insights & Latest News",
+    "subtitle": "Explore our latest articles on AI, technology, and business innovation.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "publishedOn": "Published on",
+    "by": "By",
+    "relatedArticles": "Latest Articles"
   }
 }

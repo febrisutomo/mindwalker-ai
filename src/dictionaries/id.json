@@ -5,6 +5,7 @@
     "products": "Produk",
     "services": "Layanan",
     "contact": "Kontak",
+    "blog": "Blog",
     "bookDemo": "Jadwalkan Demo"
   },
   "hero": {
@@ -316,5 +317,14 @@
         "description": "Temukan bagaimana platform AI kami membantu bisnis kamu berkembang"
       }
     }
+  },
+  "blog": {
+    "title": "Wawasan & Berita Terbaru",
+    "subtitle": "Jelajahi artikel terbaru kami seputar AI, teknologi, dan inovasi bisnis.",
+    "readMore": "Baca Selengkapnya",
+    "backToBlog": "Kembali ke Blog",
+    "publishedOn": "Diterbitkan pada",
+    "by": "Oleh",
+    "relatedArticles": "Artikel Terbaru"
   }
 }

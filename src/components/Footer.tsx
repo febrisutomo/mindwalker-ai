@@ -1,26 +1,37 @@
 import Link from 'next/link'
+import { Locale } from '@/i18n-config'
 
-export default function Footer({ dictionary }: { dictionary: any }) {
+export default function Footer({ dictionary, lang }: { dictionary: any; lang: Locale }) {
   return (
     <footer className="flex flex-col gap-8 px-6 sm:px-10 lg:px-20 py-10 text-center border-t border-gray-200 dark:border-white/10 mt-16 max-w-[1280px] mx-auto w-full">
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-        {['home', 'about', 'products', 'services', 'contact'].map((item) => (
-          <a
-            key={item}
-            className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
-            href={`#${item}`}
-          >
-            {dictionary.navigation[item]}
-          </a>
+        {['home', 'about', 'products', 'services', 'blog', 'contact'].map((item) => (
+          item === 'blog' ? (
+            <Link
+              key={item}
+              href={`/${lang}/blog`}
+              className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
+            >
+              {dictionary.navigation[item]}
+            </Link>
+          ) : (
+            <a
+              key={item}
+              className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
+              href={`#${item}`}
+            >
+              {dictionary.navigation[item]}
+            </a>
+          )
         ))}
         <a className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer" href="#">
-            {dictionary.footer.privacy}
+          {dictionary.footer.privacy}
         </a>
         <a className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer" href="#">
-            {dictionary.footer.terms}
+          {dictionary.footer.terms}
         </a>
       </div>
-      
+
       <div className="flex flex-wrap justify-center gap-6">
         <a
           className="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
@@ -58,7 +69,7 @@ export default function Footer({ dictionary }: { dictionary: any }) {
           </svg>
         </a>
       </div>
-      
+
       <p className="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">
         {dictionary.footer.copyright}
       </p>

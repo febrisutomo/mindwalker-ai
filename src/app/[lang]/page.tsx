@@ -24,12 +24,12 @@ export default async function Page({
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col w-full">
             <main className="flex-grow">
-               <Hero dictionary={dictionary} />
-               <About dictionary={dictionary} />
-               <Products dictionary={dictionary} lang={lang} />
-               <Services dictionary={dictionary} lang={lang} />
-               <Partners dictionary={dictionary} />
-               <Contact dictionary={dictionary} />
+              <Hero dictionary={dictionary} />
+              <About dictionary={dictionary} />
+              <Products dictionary={dictionary} lang={lang} />
+              <Services dictionary={dictionary} lang={lang} />
+              <Partners dictionary={dictionary} />
+              <Contact dictionary={dictionary} />
             </main>
           </div>
         </div>

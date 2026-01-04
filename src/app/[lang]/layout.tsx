@@ -41,12 +41,12 @@ export default async function RootLayout({
   return (
     <html lang={lang} className={spaceGrotesk.variable}>
       <head>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
       </head>
       <body className="antialiased font-display bg-[#f6f6f8] dark:bg-[#101622] text-[#111318] dark:text-white">
         <Header dictionary={dictionary} lang={locale} />
         {children}
-        <Footer dictionary={dictionary} />
+        <Footer dictionary={dictionary} lang={locale} />
         <LeadModal dictionary={dictionary} />
       </body>
     </html>
