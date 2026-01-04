@@ -5,16 +5,29 @@ export default function Footer({ dictionary, lang }: { dictionary: any; lang: Lo
   return (
     <footer className="flex flex-col gap-8 px-6 sm:px-10 lg:px-20 py-10 text-center border-t border-gray-200 dark:border-white/10 mt-16 max-w-[1280px] mx-auto w-full">
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-        {['home', 'about', 'products', 'services', 'blog', 'contact'].map((item) => (
-          item === 'blog' ? (
-            <Link
-              key={item}
-              href={`/${lang}/blog`}
-              className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
-            >
-              {dictionary.navigation[item]}
-            </Link>
-          ) : (
+        {['home', 'about', 'products', 'services', 'blog', 'contact'].map((item) => {
+          if (['blog', 'products', 'services'].includes(item)) {
+            return (
+              <Link
+                key={item}
+                href={`/${lang}/${item}`}
+                className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
+              >
+                {dictionary.navigation[item]}
+              </Link>
+            )
+          } else if (item === 'home') {
+            return (
+              <Link
+                key={item}
+                href={`/${lang}`}
+                className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
+              >
+                {dictionary.navigation[item]}
+              </Link>
+            )
+          }
+          return (
             <a
               key={item}
               className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer"
@@ -23,7 +36,7 @@ export default function Footer({ dictionary, lang }: { dictionary: any; lang: Lo
               {dictionary.navigation[item]}
             </a>
           )
-        ))}
+        })}
         <a className="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal hover:text-primary dark:hover:text-primary transition-colors cursor-pointer" href="#">
           {dictionary.footer.privacy}
         </a>
