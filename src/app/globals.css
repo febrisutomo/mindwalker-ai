@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   /* Link Next.js font variable correctly */
@@ -140,6 +141,43 @@
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px -5px rgba(19, 91, 236, 0.6);
+  }
+}
+
+/* Manual Blog Content Styling Fallback */
+.blog-content {
+  @apply text-gray-700 dark:text-gray-300 leading-relaxed text-lg;
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold mt-16 mb-8 text-[#111318] dark:text-white leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-bold mt-10 mb-5 text-[#111318] dark:text-white;
+  }
+
+  p {
+    @apply mb-8 leading-8;
+  }
+
+  ul {
+    @apply my-8 list-disc pl-6 space-y-2;
+  }
+
+  li {
+    @apply text-lg;
+  }
+
+  strong {
+    @apply font-bold text-[#111318] dark:text-white;
+  }
+
+  img {
+    @apply rounded-2xl shadow-xl my-12 w-full object-cover;
+  }
+
+  a {
+    @apply text-primary hover:underline font-medium;
   }
 }
 

@@ -54,16 +54,7 @@ export default async function BlogPostPage({
             {/* Content Section */}
             <div className="container mx-auto px-4 max-w-3xl py-20 md:py-24">
                 <div
-                    className="prose prose-lg dark:prose-invert max-w-none 
-             text-gray-700 dark:text-gray-300 
-             prose-headings:text-[#111318] dark:prose-headings:text-white 
-             prose-h2:text-3xl prose-h2:font-bold prose-h2:mt-16 prose-h2:mb-6 prose-h2:leading-tight
-             prose-h3:text-2xl prose-h3:font-semibold prose-h3:mt-10 prose-h3:mb-4
-             prose-p:text-lg prose-p:leading-8 prose-p:mb-8 prose-p:text-gray-600 dark:prose-p:text-gray-300
-             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
-             prose-strong:font-bold prose-strong:text-[#111318] dark:prose-strong:text-white
-             prose-ul:my-6 prose-li:my-2
-             prose-img:rounded-2xl prose-img:shadow-xl prose-img:my-12 prose-img:w-full"
+                    className="blog-content max-w-none"
                     dangerouslySetInnerHTML={{ __html: post.content }}
                 />
             </div>
