@@ -11,15 +11,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "revolusi-ai-2025",
-    title: "Revolusi AI 2025: Bagaimana Kecerdasan Buatan Mengubah Lanskap Bisnis",
-    excerpt: "Menelusuri tren utama AI yang akan mendominasi tahun 2025 dan dampaknya terhadap berbagai sektor industri.",
+    slug: "revolusi-ai-2026",
+    title: "Revolusi AI 2026: Bagaimana Kecerdasan Buatan Mengubah Lanskap Bisnis",
+    excerpt: "Menelusuri tren utama AI yang akan mendominasi tahun 2026 dan dampaknya terhadap berbagai sektor industri.",
     content: `
-      <p>Tahun 2025 menandai titik balik penting dalam evolusi kecerdasan buatan (AI). Tidak lagi sekadar konsep futuristik, AI kini telah menjadi tulang punggung operasi bisnis di berbagai sektor. Dari otomatisasi cerdas hingga analitik prediktif yang canggih, perusahaan yang mengadopsi teknologi ini mengalami lonjakan efisiensi dan inovasi yang belum pernah terjadi sebelumnya.</p>
+      <p>Tahun 2026 menandai titik balik penting dalam evolusi kecerdasan buatan (AI). Tidak lagi sekadar konsep futuristik, AI kini telah menjadi tulang punggung operasi bisnis di berbagai sektor. Dari otomatisasi cerdas hingga analitik prediktif yang canggih, perusahaan yang mengadopsi teknologi ini mengalami lonjakan efisiensi dan inovasi yang belum pernah terjadi sebelumnya.</p>
       
       <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1000" alt="Robot AI masa depan" class="w-full rounded-xl my-8 shadow-lg" />
 
-      <h2>Tren Utama AI di 2025</h2>
+      <h2>Tren Utama AI di 2026</h2>
       <h3>1. Generative AI yang Lebih Matang</h3>
       <p>Generative AI telah berkembang jauh melampaui pembuatan teks dan gambar sederhana. Kini, ia mampu merancang produk, memecahkan masalah kompleks, dan bahkan membuat kode program yang efisien secara mandiri. Bisnis memanfaatkannya untuk mempercepat siklus pengembangan produk dan personalisasi layanan pelanggan.</p>
       
@@ -34,9 +34,9 @@ export const blogPosts: BlogPost[] = [
       <h2>Dampak pada Industri</h2>
       <p>Sektor keuangan menggunakan AI untuk mendeteksi penipuan dengan akurasi mendekati sempurna, sementara di bidang kesehatan, AI membantu diagnosis dini penyakit dengan presisi yang melampaui kemampuan manusia. Di sektor ritel, pengalaman belanja yang dipersonalisasi bukan lagi keistimewaan, melainkan standar.</p>
       
-      <p>Revolusi AI 2025 bukan tentang menggantikan manusia, melainkan memberdayakan kita untuk mencapai lebih banyak. Perusahaan yang berani berinovasi dan mengintegrasikan AI ke dalam strategi inti mereka akan memimpin pasar di dekade mendatang. Pelajari lebih lanjut tentang solusi AI kami di <a href="https://mindwalker.ai">Mindwalker AI</a>.</p>
+      <p>Revolusi AI 2026 bukan tentang menggantikan manusia, melainkan memberdayakan kita untuk mencapai lebih banyak. Perusahaan yang berani berinovasi dan mengintegrasikan AI ke dalam strategi inti mereka akan memimpin pasar di dekade mendatang. Pelajari lebih lanjut tentang solusi AI kami di <a href="https://mindwalker.ai">Mindwalker AI</a>.</p>
     `,
-    date: "2025-01-15",
+    date: "2026-01-03",
     author: "Mindwalker AI",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
     tags: ["Artificial Intelligence", "Bisnis", "Teknologi"],
@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>Masa depan layanan pelanggan adalah tentang kolaborasi, bukan persaingan. Mengintegrasikan AI Agent adalah langkah strategis untuk membangun loyalitas pelanggan yang lebih kuat di era digital. Temukan bagaimana <a href="https://mindwalker.ai">Mindwalker AI</a> dapat membantu transformasi layanan Anda.</p>
     `,
-    date: "2025-02-02",
+    date: "2026-01-02",
     author: "Mindwalker AI",
     image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=1000",
     tags: ["Customer Experience", "AI Agents", "Otomatisasi"],
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>Membangun AI yang etis bukan hanya tentang kepatuhan hukum, tetapi tentang menciptakan teknologi yang benar-benar bermanfaat bagi kemanusiaan. Produk yang dibangun di atas fondasi kepercayaan akan bertahan dan berkembang dalam jangka panjang. Komitmen kami terhadap etika dapat dilihat di <a href="https://mindwalker.ai">Mindwalker AI</a>.</p>
     `,
-    date: "2025-02-20",
+    date: "2026-01-01",
     author: "Mindwalker AI",
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1000",
     tags: ["Etika AI", "Keamanan Data", "Development"],
