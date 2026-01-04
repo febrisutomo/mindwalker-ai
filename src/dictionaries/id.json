@@ -163,16 +163,16 @@
       "subtitle": "Pengembangan Model AI Kustom",
       "hero": {
         "title": "Akselerasi Inovasi Bisnis dengan Pengembangan Model AI Kustom",
-        "description": "ModelForge menghadirkan solusi Revolusi AI melalui pengembangan Platform AI dan Aplikasi AI yang disesuaikan dengan kebutuhan bisnis Anda. Kami membantu perusahaan berinovasi lebih cepat dengan teknologi AI dan machine learning yang tepat sasaran.",
+        "description": "ModelForge menghadirkan solusi AI melalui pengembangan Platform AI yang disesuaikan dengan kebutuhan bisnis Anda. Kami membantu perusahaan berinovasi lebih cepat dengan teknologi AI yang relevan.",
         "button": "Mulai Sekarang"
       },
       "main": {
         "title": "Membangun Model AI yang Disesuaikan dengan Kebutuhan Bisnis Anda",
-        "description": "ModelForge mengembangkan solusi Social Intelligence AI, AI Creative Suite, dan Business Intelligence (Analisis Data) yang dibangun secara kustom dari awal sesuai kebutuhan setiap bisnis—memungkinkan pemahaman audiens yang lebih mendalam, otomatisasi pembuatan konten berkualitas tinggi, serta pengambilan keputusan berbasis data."
+        "description": "ModelForge mengembangkan platform AI yang dibangun secara custom sesuai kebutuhan setiap bisnis, memungkinkan pemahaman brand yang lebih mendalam, otomatisasi pembuatan konten berkualitas tinggi, serta pengambilan keputusan berbasis data."
       },
       "cta": {
         "title": "Mulai Sekarang",
-        "description": "ModelForge adalah mitra strategis Anda dalam membangun platform AI yang siap menghadapi masa depan untuk mempercepat transformasi digital."
+        "description": "Membangun platform AI secara custom yang disesuaikan dengan kebutuhan Anda."
       }
     },
     "dataforge": {
@@ -180,16 +180,16 @@
       "subtitle": "Rekayasa Dataset",
       "hero": {
         "title": "Jelajahi DataForge",
-        "description": "DataForge mengubah data mentah menjadi wawasan cerdas dan dapat ditindaklanjuti yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan analitik data canggih, DataForge membantu bisnis mengungkap tren, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
+        "description": "DataForge mengubah data mentah menjadi insight yang mendorong pertumbuhan bisnis dan mendukung pengambilan keputusan berbasis data. Dengan memanfaatkan data analytics, DataForge membantu bisnis memastikan reputasi brand, mengoptimalkan strategi, dan meningkatkan efisiensi operasional.",
         "button": "Mulai Sekarang"
       },
       "main": {
         "title": "Cara Kerja DataForge",
-        "description": "Dengan DataForge, bisnis dapat memproses dan menganalisis data dari berbagai sumber untuk mengungkap pola, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dirancang untuk memenuhi kebutuhan bisnis yang unik, DataForge memastikan setiap insight bersifat praktis, relevan, dan siap mendorong pertumbuhan."
+        "description": "Dengan DataForge, bisnis dapat memproses dan menganalisis data dari berbagai sumber untuk menghasilkan pola, mengoptimalkan strategi, dan meningkatkan efisiensi operasional. Dirancang untuk memenuhi kebutuhan bisnis, DataForge memastikan setiap insight bersifat praktis, relevan, dan siap mendorong pertumbuhan."
       },
       "cta": {
         "title": "Mulai Sekarang",
-        "description": "Mengubah data mentah menjadi wawasan cerdas dan dapat ditindaklanjuti yang mendorong pertumbuhan bisnis."
+        "description": "Mengubah data mentah menjadi insight yang mendorong pertumbuhan bisnis."
       }
     },
     "agentforge": {
@@ -197,16 +197,16 @@
       "subtitle": "Pengembangan, Integrasi, & Otomasi Agen AI",
       "hero": {
         "title": "Meningkatkan Produktivitas Melalui Otomasi AI yang Cerdas",
-        "description": "AgentForge (Pengembangan, Integrasi & Otomasi Agen AI) membangun agen AI untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI kustom, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja secara keseluruhan.",
+        "description": "AgentForge membangun AI Agent untuk mengotomatisasi proses bisnis dan meningkatkan produktivitas. Dengan merancang solusi AI, AgentForge membantu perusahaan menyederhanakan alur kerja, mengurangi tugas berulang, dan mengoptimalkan kinerja secara keseluruhan.",
         "button": "Mulai Sekarang"
       },
       "main": {
         "title": "Meningkatkan Efisiensi dengan Agen AI",
-        "description": "Dengan AgentForge, bisnis dapat mengintegrasikan agen AI secara mulus ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap agen dibuat khusus untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih cerdas dan peningkatan produktivitas."
+        "description": "Dengan AgentForge, bisnis dapat mengintegrasikan AI Agent ke dalam operasi mereka untuk meningkatkan efisiensi dan mempercepat pengambilan keputusan. Setiap AI Agent dibuat khusus untuk memenuhi kebutuhan bisnis tertentu, memastikan otomatisasi yang lebih efisien dan peningkatan produktivitas."
       },
       "cta": {
         "title": "Mulai Sekarang",
-        "description": "Membangun dan mengintegrasikan agen AI untuk mengotomatisasi proses dan meningkatkan produktivitas."
+        "description": "Membangun dan mengintegrasikan AI Agent untuk mengotomatisasi proses dan meningkatkan produktivitas."
       }
     }
   },
