@@ -33,7 +33,7 @@ export default async function BlogPostPage({
                 <div className="absolute inset-0 bg-black/60 z-10 transition-opacity"></div> {/* Dark Overlay */}
 
                 <div className="container mx-auto px-4 relative z-20 text-center max-w-4xl pt-20">
-                    <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight drop-shadow-md">
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight drop-shadow-md">
                         {post.title}
                     </h1>
 
