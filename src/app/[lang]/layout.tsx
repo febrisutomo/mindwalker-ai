@@ -26,6 +26,7 @@ import Footer from '@/components/Footer'
 import LeadModal from '@/components/LeadModal'
 import { getDictionary } from '@/get-dictionary'
 import { Locale } from '@/i18n-config'
+import NextTopLoader from 'nextjs-toploader'
 
 export default async function RootLayout({
   children,
@@ -44,6 +45,7 @@ export default async function RootLayout({
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
       </head>
       <body className="antialiased font-display bg-[#f6f6f8] dark:bg-[#101622] text-[#111318] dark:text-white">
+        <NextTopLoader color="#135bec" showSpinner={false} />
         <Header dictionary={dictionary} lang={locale} />
         {children}
         <Footer dictionary={dictionary} lang={locale} />
