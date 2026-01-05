@@ -33,6 +33,9 @@ type Dictionary = {
 }
 
 export default function Header({ dictionary, lang }: { dictionary: Dictionary; lang: Locale }) {
+  /* Insert usePathname at top level */
+  const pathname = usePathname()
+
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileProductsOpen, setMobileProductsOpen] = useState(false)
@@ -242,14 +245,25 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
         <nav className="px-6 py-4 w-full max-w-sm text-center font-medium">
           <div className="flex flex-col space-y-4 w-full cursor-pointer">
             {['home', 'about', 'blog'].map((item) => (
-              <a
+              <Link
                 key={item}
                 className="text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
-                href={item === 'blog' ? `/${lang}/blog` : `#${item}`}
-                onClick={(e) => item === 'blog' ? setMobileMenuOpen(false) : scrollToSection(e, item)}
+                href={item === 'blog' ? `/${lang}/blog` : `/${lang}#${item}`}
+                onClick={(e) => {
+                  if (item === 'blog') {
+                    setMobileMenuOpen(false)
+                  } else {
+                    const isHomePage = pathname === `/${lang}`;
+                    if (isHomePage) {
+                      scrollToSection(e as any, item);
+                    } else {
+                      setMobileMenuOpen(false);
+                    }
+                  }
+                }}
               >
                 {dictionary.navigation[item as keyof typeof dictionary.navigation]}
-              </a>
+              </Link>
             ))}
 
             {/* Mobile Products Dropdown */}
@@ -306,13 +320,20 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary; l
               </div>
             </div>
 
-            <a
+            <Link
               className="text-[#111318] dark:text-white text-xl leading-normal hover:text-primary transition-colors py-2"
-              href="#contact"
-              onClick={(e) => scrollToSection(e, 'contact')}
+              href={`/${lang}#contact`}
+              onClick={(e) => {
+                const isHomePage = pathname === `/${lang}`;
+                if (isHomePage) {
+                  scrollToSection(e as any, 'contact');
+                } else {
+                  setMobileMenuOpen(false);
+                }
+              }}
             >
               {dictionary.navigation.contact}
-            </a>
+            </Link>
 
             <button
               className="book-demo-btn bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-bold leading-normal transition-all duration-300 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 mt-4 w-full"
