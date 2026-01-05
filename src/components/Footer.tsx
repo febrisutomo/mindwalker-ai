@@ -6,7 +6,7 @@ export default function Footer({ dictionary, lang }: { dictionary: any; lang: Lo
     <footer className="flex flex-col gap-8 px-6 sm:px-10 lg:px-20 py-10 text-center border-t border-gray-200 dark:border-white/10 mt-16 max-w-[1280px] mx-auto w-full">
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
         {['home', 'about', 'products', 'services', 'blog', 'contact'].map((item) => {
-          if (['blog', 'products', 'services'].includes(item)) {
+          if (['blog'].includes(item)) {
             return (
               <Link
                 key={item}
