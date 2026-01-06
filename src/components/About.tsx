@@ -1,17 +1,19 @@
+import Image from 'next/image'
+
 export default function About({ dictionary }: { dictionary: any }) {
   return (
     <section id="about" className="px-6 sm:px-10 lg:px-20 py-16 lg:py-24 relative overflow-hidden">
-      <div
-        className="absolute inset-0 z-0 opacity-10 dark:opacity-20"
-        style={{
-          backgroundImage:
-            "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAssw9g5tTPQKkRvLTxojgpA1-708Ed4GaEsyrJaaZhXHJjsVO_D1n-PLO14Vumg3rh8sbph3Ed4a-8RtDdOJbmi3RjYtAcV7wqN3QqRvN6fMk4LbwiuxwroGVkkuvQSMChWb0aKVOXoJRMwDUahfVHDJf2dJZotkDWWqpXcKsDoKU8wUXgk9E3MlUNr6Y4_Es2iCdxRWw_kg8DcKOrE_20q1P9ELuYYAXHK6Bn3skthA6XiMuZo-pA6cKQfS8k7-ki8LHyRp9HV4s')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      ></div>
+      <div className="absolute inset-0 z-0 opacity-10 dark:opacity-20">
+        <Image
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAssw9g5tTPQKkRvLTxojgpA1-708Ed4GaEsyrJaaZhXHJjsVO_D1n-PLO14Vumg3rh8sbph3Ed4a-8RtDdOJbmi3RjYtAcV7wqN3QqRvN6fMk4LbwiuxwroGVkkuvQSMChWb0aKVOXoJRMwDUahfVHDJf2dJZotkDWWqpXcKsDoKU8wUXgk9E3MlUNr6Y4_Es2iCdxRWw_kg8DcKOrE_20q1P9ELuYYAXHK6Bn3skthA6XiMuZo-pA6cKQfS8k7-ki8LHyRp9HV4s"
+          alt="Background Pattern"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-[#f6f6f8] via-[#f6f6f8]/90 to-[#f6f6f8] dark:from-[#101622] dark:via-[#101622]/90 dark:to-[#101622]"></div>
-      
+
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#111318] dark:text-white mb-4">
@@ -21,7 +23,7 @@ export default function About({ dictionary }: { dictionary: any }) {
             {dictionary.about.description}
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { key: 'mission', icon: 'auto_awesome' },
