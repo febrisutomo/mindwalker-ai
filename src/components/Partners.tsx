@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Partners({ dictionary }: { dictionary: any }) {
   const logos = [
     'logos/google-color.png',
@@ -13,16 +15,15 @@ export default function Partners({ dictionary }: { dictionary: any }) {
 
   return (
     <section className="px-6 sm:px-10 lg:px-20 py-16 lg:py-24 relative overflow-hidden">
-      <div
-        className="absolute inset-0 z-0 opacity-[0.03] dark:opacity-[0.05]"
-        style={{
-          backgroundImage:
-            "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDoYjnPIGQI2-Jz-FuSp7aydH8iWklEs7KdAjy0y56_T3cFkjGGySnuJty42QQ04M4fKf6XeIL93gCn2epC3L_6jTvIaay80AIG66Ykrn4IA0Crk3m3qWLRBXQtgB9cbEOKxIvExR5Drlc2ofBnGSFN9JY1AJO0MLuwlXJmDG6JISNj5BEDbgp7oaAyDc6ns6xeT07yGXLm7OdLd7IL7wkiXfJrizP6WjQkVN927YFNprU-OuSmndfemBzssMeGF1h2-nDGmLeUYsk')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          filter: 'invert(0)',
-        }}
-      ></div>
+      <div className="absolute inset-0 z-0 opacity-[0.03] dark:opacity-[0.05]">
+        <Image
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoYjnPIGQI2-Jz-FuSp7aydH8iWklEs7KdAjy0y56_T3cFkjGGySnuJty42QQ04M4fKf6XeIL93gCn2epC3L_6jTvIaay80AIG66Ykrn4IA0Crk3m3qWLRBXQtgB9cbEOKxIvExR5Drlc2ofBnGSFN9JY1AJO0MLuwlXJmDG6JISNj5BEDbgp7oaAyDc6ns6xeT07yGXLm7OdLd7IL7wkiXfJrizP6WjQkVN927YFNprU-OuSmndfemBzssMeGF1h2-nDGmLeUYsk"
+          alt="Background Pattern"
+          fill
+          className="object-cover invert-0"
+          sizes="100vw"
+        />
+      </div>
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#111318] dark:text-white">
@@ -34,9 +35,15 @@ export default function Partners({ dictionary }: { dictionary: any }) {
             {scrollLogos.map((src, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center w-32 h-20 transition-all duration-300 hover:scale-105"
+                className="flex items-center justify-center w-32 h-20 transition-all duration-300 hover:scale-105 relative"
               >
-                <img src={src} alt="Partner Logo" className="max-w-full max-h-full object-contain" />
+                <Image
+                  src={`/${src}`} // Assuming logos are in public/logos, so src should be e.g. /logos/google-color.png
+                  alt="Partner Logo"
+                  width={128}
+                  height={80}
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             ))}
           </div>
